@@ -2,7 +2,7 @@
 
 Advanced Databases Group Assignment NoSQL Databases
 
-## Product Catalogue: MongoDB Atlas prototype (BIT3360)
+## Product Catalogue: MongoDB Atlas prototype
 
 A small product catalogue showing Create, Read (search + filter), Update and Delete on a document database.
 
