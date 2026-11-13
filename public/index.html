@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Product Catalogue | MongoDB prototype</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;800&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <h1>Product catalogue</h1>
+  <p id="count">Loading…</p>
+</header>
+<main>
+  <section class="list">
+    <div class="filters">
+      <input id="search" type="search" placeholder="Search by name or tag" aria-label="Search products">
+      <select id="category" aria-label="Filter by category"><option value="">All categories</option></select>
+      <button id="newBtn" class="primary">Add product</button>
+    </div>
+    <div class="tablewrap">
+      <table>
+        <thead><tr><th>Name</th><th>Category</th><th class="num">Price (ZMW)</th><th class="num">Stock</th></tr></thead>
+        <tbody id="rows"></tbody>
+      </table>
+    </div>
+    <p id="empty" hidden>No products match. Clear the search or add a product.</p>
+  </section>
+
+  <aside>
+    <form id="form">
+      <h2 id="formTitle">Add product</h2>
+      <label>Name <input name="name" required></label>
+      <div class="two">
+        <label>Category <input name="category" list="cats" required></label>
+        <datalist id="cats"></datalist>
+        <label>Price (ZMW) <input name="price" type="number" min="0" step="0.01" required></label>
+      </div>
+      <div class="two">
+        <label>Stock <input name="stock" type="number" min="0" step="1" required></label>
+        <label>Tags (comma separated) <input name="tags"></label>
+      </div>
+      <label>Specs (one per line, key: value)
+        <textarea name="specs" rows="4" placeholder="storage: 128GB&#10;ram: 4GB"></textarea>
+      </label>
+      <p id="msg" role="status"></p>
+      <div class="actions">
+        <button class="primary" type="submit" id="saveBtn">Save product</button>
+        <button type="button" id="cancelBtn">Cancel</button>
+        <button type="button" id="delBtn" class="danger" hidden>Delete</button>
+      </div>
+    </form>
+    <div class="json">
+      <h2>Stored document</h2>
+      <pre id="json">Select a product to see how MongoDB stores it.</pre>
+    </div>
+  </aside>
+</main>
+<script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,14 @@
+[
+ {"name":"Samsung Galaxy A15","category":"Phones","price":2800,"stock":14,"tags":["android","budget"],"specs":{"storage":"128GB","ram":"4GB","battery":"5000mAh"}},
+ {"name":"Tecno Spark 20","category":"Phones","price":2100,"stock":22,"tags":["android","budget"],"specs":{"storage":"128GB","ram":"8GB","battery":"5000mAh"}},
+ {"name":"iPhone 13","category":"Phones","price":11500,"stock":4,"tags":["ios","premium"],"specs":{"storage":"128GB","ram":"4GB","screen":"6.1 inch"}},
+ {"name":"HP 15 Laptop","category":"Laptops","price":9800,"stock":6,"tags":["windows","office"],"specs":{"cpu":"Core i5","ram":"8GB","storage":"512GB SSD"}},
+ {"name":"Lenovo IdeaPad 3","category":"Laptops","price":8700,"stock":3,"tags":["windows","student"],"specs":{"cpu":"Ryzen 5","ram":"8GB","storage":"256GB SSD"}},
+ {"name":"Cotton T-Shirt","category":"Clothing","price":150,"stock":60,"tags":["casual","unisex"],"specs":{"size":["S","M","L","XL"],"color":"Navy","material":"Cotton"}},
+ {"name":"Chitenge Dress","category":"Clothing","price":420,"stock":18,"tags":["chitenge","women"],"specs":{"size":["M","L"],"color":"Multicolour","material":"Cotton wax print"}},
+ {"name":"Leather Work Boots","category":"Clothing","price":780,"stock":9,"tags":["footwear","work"],"specs":{"size":[40,41,42,43,44],"color":"Brown","material":"Leather"}},
+ {"name":"Mealie Meal 25kg","category":"Groceries","price":260,"stock":80,"tags":["staple","maize"],"specs":{"weight":"25kg","brand":"Breakfast Roller Meal"}},
+ {"name":"Cooking Oil 2L","category":"Groceries","price":95,"stock":45,"tags":["staple"],"specs":{"volume":"2L","type":"Sunflower"}},
+ {"name":"Bluetooth Speaker","category":"Electronics","price":650,"stock":0,"tags":["audio","portable"],"specs":{"battery":"12 hours","waterproof":true,"connectivity":"Bluetooth 5.0"}},
+ {"name":"Solar Lantern","category":"Electronics","price":340,"stock":25,"tags":["solar","lighting"],"specs":{"battery":"8 hours","charging":"Solar + USB","waterproof":false}}
+]
