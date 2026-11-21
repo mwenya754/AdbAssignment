@@ -14,13 +14,43 @@ Browser (public/)  ->  Express API (server.js)  ->  MongoDB Atlas
 The browser never sees the database credentials. The Atlas Data API was retired in September 2025, so a small backend is used instead.
 
 ## Setup
-1. Atlas: create a free cluster, a database user, and allow your IP under Network Access.
-2. Copy the connection string (Connect > Drivers).
-3. `cp .env.example .env` and paste the string into `MONGODB_URI` (replace `<password>`).
-4. `npm install`
-5. `npm run seed`   (loads 12 sample products into `catalogue.products`)
-6. `npm start`  then open http://localhost:3000
-7. Optional: connect Compass with the same string to see the `catalogue.products` collection.
+
+### 1. Prepare MongoDB Atlas
+
+1. In your Atlas project, create a free cluster or reuse an existing cluster.
+2. Open **Security > Database & Network Access > Database Users** and add a password-authenticated database user. Give the app user the built-in `readWrite` role scoped to the `catalogue` database. Leave the collection blank to allow access to collections in that database. The app does not need the `atlasAdmin` role.
+3. Open **Network Access > IP Access List** and add your current IP address. Reuse an active entry if it already exists; avoid allowing access from all IPs (`0.0.0.0/0`).
+4. On the cluster, choose **Connect > Drivers**, select **Node.js Driver**, and copy the connection string.
+
+### 2. Configure the app
+
+1. Create the local environment file once:
+   ```sh
+   cp .env.example .env
+   ```
+2. Put the Atlas driver connection string in `MONGODB_URI` in `.env`. Replace the username and password placeholders with the database user's values, including removing the placeholder angle brackets. If the password contains reserved URI characters such as `@`, `:`, `/`, `?`, or `#`, percent-encode them.
+3. Set `DB_NAME=catalogue` and `PORT=3000`. Keep `.env` local: it contains credentials, is ignored by Git, and must not be committed or pasted into chat.
+
+### 3. Install and run
+
+```sh
+npm install
+npm start
+```
+
+Open <http://localhost:3000>. The server connects to Atlas before it starts listening. If it cannot connect, check the URI, database username and password, password encoding, and Atlas IP access list.
+
+### Optional: load sample products
+
+```sh
+npm run seed
+```
+
+This inserts 12 sample products into `catalogue.products`, but first deletes every document already in that collection. Run it only when the collection is empty or its contents are disposable.
+
+### Optional: inspect data with Compass
+
+Connect MongoDB Compass to the same Atlas connection string and open the `catalogue.products` collection.
 
 ## Data structure
 One collection, `products`. Each document:

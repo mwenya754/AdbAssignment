@@ -1,0 +1,4 @@
+{
+  "prompt": "Edit this UI mockup only in the MongoDB document preview at the bottom right. Keep every other pixel, layout, color, control, and text region unchanged. The JSON must be syntactically structured with specs as a nested object, not a string. Show exactly:\n{\n  \"name\": \"Samsung Galaxy A15\",\n  \"category\": \"Phones\",\n  \"price\": 2800,\n  \"stock\": 14,\n  \"tags\": [\"android\", \"budget\"],\n  \"specs\": {\n    \"storage\": \"128GB\",\n    \"ram\": \"4GB\",\n    \"battery\": \"5000mAh\"\n  }\n}\nDo not change or add any other content.",
+  "createdAt": "2026-11-21T19:04:47.872Z"
+}

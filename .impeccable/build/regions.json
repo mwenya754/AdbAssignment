@@ -1,0 +1,28 @@
+{
+  "regions": [
+    {"id":"page-ground","kind":"chrome","box":{"x":0,"y":0,"w":1,"h":1},"container":true,"note":"Uniform pale cool page ground underneath the interface."},
+    {"id":"masthead","kind":"chrome","box":{"x":0,"y":0,"w":1,"h":0.063},"note":"Full-width deep blue-black title bar."},
+    {"id":"page-title","kind":"text","box":{"x":0.02,"y":0.01,"w":0.25,"h":0.045},"note":"Large bold Product catalogue title."},
+    {"id":"sample-marker","kind":"control","box":{"x":0.283,"y":0.014,"w":0.087,"h":0.034},"note":"Chartreuse Sample data label beside the title."},
+    {"id":"add-product","kind":"control","box":{"x":0.86,"y":0.007,"w":0.125,"h":0.048},"note":"Cobalt Add product action at the top right."},
+    {"id":"search-filter-row","kind":"control","box":{"x":0.016,"y":0.078,"w":0.968,"h":0.051},"note":"Search by product name or tag and filter by category, in two horizontally aligned labeled controls."},
+    {"id":"product-index","kind":"chrome","box":{"x":0.016,"y":0.154,"w":0.968,"h":0.269},"container":true,"note":"Wide five-column product index with a dark heading band, thin row rules, selected cobalt row and stock labels."},
+    {"id":"table-heading-band","kind":"chrome","box":{"x":0.016,"y":0.154,"w":0.968,"h":0.047},"note":"Deep blue-black heading row for Product, Category, Price (ZMW), Stock and Status."},
+    {"id":"selected-row","kind":"control","box":{"x":0.016,"y":0.2,"w":0.968,"h":0.056},"note":"Selected Samsung Galaxy A15 row in cobalt with category, formatted price, stock and in-stock badge."},
+    {"id":"second-row","kind":"control","box":{"x":0.016,"y":0.256,"w":0.968,"h":0.055},"note":"Tecno Spark 20 row with category, formatted price, stock and in-stock badge."},
+    {"id":"third-row","kind":"control","box":{"x":0.016,"y":0.312,"w":0.968,"h":0.055},"note":"iPhone 13 row with category, formatted price, low stock number and low-stock badge."},
+    {"id":"fourth-row","kind":"control","box":{"x":0.016,"y":0.368,"w":0.968,"h":0.055},"note":"Cotton T-Shirt row with category, formatted price, stock and in-stock badge."},
+    {"id":"edit-pane","kind":"chrome","box":{"x":0.016,"y":0.456,"w":0.48,"h":0.522},"container":true,"note":"Bordered edit form pane with a dark header, aligned labels and controls, and an action row."},
+    {"id":"edit-pane-title","kind":"text","box":{"x":0.033,"y":0.465,"w":0.24,"h":0.03},"note":"Edit product heading in the pane's deep blue-black header."},
+    {"id":"name-field","kind":"control","box":{"x":0.03,"y":0.517,"w":0.452,"h":0.04},"note":"Name label and text field for Samsung Galaxy A15."},
+    {"id":"category-field","kind":"control","box":{"x":0.03,"y":0.565,"w":0.452,"h":0.04},"note":"Category label and Phones select field."},
+    {"id":"price-field","kind":"control","box":{"x":0.03,"y":0.612,"w":0.452,"h":0.04},"note":"Price label and 2800 ZMW number field."},
+    {"id":"stock-field","kind":"control","box":{"x":0.03,"y":0.66,"w":0.452,"h":0.04},"note":"Stock label and 14 unit number field."},
+    {"id":"tags-field","kind":"control","box":{"x":0.03,"y":0.708,"w":0.452,"h":0.046},"note":"Tags label and android and budget tag chips."},
+    {"id":"specs-field","kind":"control","box":{"x":0.03,"y":0.763,"w":0.452,"h":0.12},"note":"Specs label with a compact multiline object containing storage, ram and battery values."},
+    {"id":"form-actions","kind":"control","box":{"x":0.03,"y":0.907,"w":0.338,"h":0.052},"note":"Save product, Cancel and Delete buttons in one aligned action row."},
+    {"id":"document-pane","kind":"chrome","box":{"x":0.507,"y":0.456,"w":0.478,"h":0.522},"container":true,"note":"Bordered MongoDB document pane with a dark header and a large readable nested-object preview."},
+    {"id":"document-pane-title","kind":"text","box":{"x":0.52,"y":0.465,"w":0.32,"h":0.03},"note":"MongoDB document heading in the pane's deep blue-black header."},
+    {"id":"document-preview","kind":"control","box":{"x":0.52,"y":0.517,"w":0.452,"h":0.39},"note":"Monospaced nested document preview for the same selected product, including tags and specs."}
+  ]
+}

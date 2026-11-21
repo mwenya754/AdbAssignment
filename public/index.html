@@ -1,63 +1,124 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Product Catalogue | MongoDB prototype</title>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;800&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="style.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#182838">
+  <title>Product catalogue | MongoDB prototype</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Assistant:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<header>
-  <h1>Product catalogue</h1>
-  <p id="count">Loading…</p>
-</header>
-<main>
-  <section class="list">
-    <div class="filters">
-      <input id="search" type="search" placeholder="Search by name or tag" aria-label="Search products">
-      <select id="category" aria-label="Filter by category"><option value="">All categories</option></select>
-      <button id="newBtn" class="primary">Add product</button>
+  <header class="masthead">
+    <div class="masthead-title">
+      <h1>Product catalogue</h1>
+      <span class="sample-marker">Sample data</span>
     </div>
-    <div class="tablewrap">
-      <table>
-        <thead><tr><th>Name</th><th>Category</th><th class="num">Price (ZMW)</th><th class="num">Stock</th></tr></thead>
-        <tbody id="rows"></tbody>
-      </table>
-    </div>
-    <p id="empty" hidden>No products match. Clear the search or add a product.</p>
-  </section>
+    <button id="newBtn" class="button button-primary" type="button">Add product</button>
+  </header>
 
-  <aside>
-    <form id="form">
-      <h2 id="formTitle">Add product</h2>
-      <label>Name <input name="name" required></label>
-      <div class="two">
-        <label>Category <input name="category" list="cats" required></label>
-        <datalist id="cats"></datalist>
-        <label>Price (ZMW) <input name="price" type="number" min="0" step="0.01" required></label>
+  <main class="page-content">
+    <section class="catalogue" aria-label="Product catalogue">
+      <div class="filters">
+        <label class="filter-control" for="search">
+          <span class="filter-label">Search</span>
+          <span class="filter-input-wrap">
+            <svg aria-hidden="true" class="search-icon" viewBox="0 0 24 24" fill="none">
+              <circle cx="10.8" cy="10.8" r="6.4" stroke="currentColor" stroke-width="1.8"></circle>
+              <path d="m15.5 15.5 4.1 4.1" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"></path>
+            </svg>
+            <input id="search" type="search" placeholder="Search products…" autocomplete="off" aria-label="Search by product name or tag">
+          </span>
+        </label>
+        <label class="filter-control category-filter" for="category">
+          <span class="filter-label">Category</span>
+          <span class="filter-input-wrap select-wrap">
+            <select id="category" aria-label="Filter by category">
+              <option value="">All categories</option>
+            </select>
+            <svg aria-hidden="true" class="chevron-icon" viewBox="0 0 16 10" fill="none"><path d="m1.5 1.5 6.5 6 6.5-6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+          </span>
+        </label>
       </div>
-      <div class="two">
-        <label>Stock <input name="stock" type="number" min="0" step="1" required></label>
-        <label>Tags (comma separated) <input name="tags"></label>
+
+      <div class="table-frame" role="region" aria-label="Product index" tabindex="0">
+        <table>
+          <thead>
+            <tr>
+              <th scope="col">Product</th>
+              <th scope="col">Category</th>
+              <th scope="col" class="numeric">Price (ZMW)</th>
+              <th scope="col" class="numeric">Stock</th>
+              <th scope="col">Status</th>
+            </tr>
+          </thead>
+          <tbody id="rows"></tbody>
+        </table>
       </div>
-      <label>Specs (one per line, key: value)
-        <textarea name="specs" rows="4" placeholder="storage: 128GB&#10;ram: 4GB"></textarea>
-      </label>
-      <p id="msg" role="status"></p>
-      <div class="actions">
-        <button class="primary" type="submit" id="saveBtn">Save product</button>
-        <button type="button" id="cancelBtn">Cancel</button>
-        <button type="button" id="delBtn" class="danger" hidden>Delete</button>
-      </div>
-    </form>
-    <div class="json">
-      <h2>Stored document</h2>
-      <pre id="json">Select a product to see how MongoDB stores it.</pre>
-    </div>
-  </aside>
-</main>
-<script src="script.js"></script>
+      <p id="empty" class="empty-state" hidden>No products match. Clear the search or add a product.</p>
+      <p id="loadError" class="load-error" role="status" hidden></p>
+    </section>
+
+    <section class="record-workspace" aria-label="Selected product workspace">
+      <section class="pane edit-pane" aria-labelledby="formTitle">
+        <div class="pane-heading">
+          <h2 id="formTitle">Add product</h2>
+        </div>
+        <form id="form" autocomplete="off">
+          <div class="field-row">
+            <label class="field-label" for="productName">Name</label>
+            <input id="productName" name="name" required>
+          </div>
+          <div class="field-row">
+            <label class="field-label" for="productCategory">Category</label>
+            <span class="category-entry">
+              <input id="productCategory" name="category" list="cats" required>
+              <datalist id="cats"></datalist>
+              <svg aria-hidden="true" class="chevron-icon" viewBox="0 0 16 10" fill="none"><path d="m1.5 1.5 6.5 6 6.5-6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+            </span>
+          </div>
+          <div class="field-row">
+            <label class="field-label" for="productPrice">Price</label>
+            <input id="productPrice" name="price" type="number" min="0" step="0.01" required inputmode="decimal">
+          </div>
+          <div class="field-row">
+            <label class="field-label" for="productStock">Stock</label>
+            <input id="productStock" name="stock" type="number" min="0" step="1" required inputmode="numeric">
+          </div>
+          <div class="field-row">
+            <span class="field-label" id="tagsLabel">Tags</span>
+            <div id="tagEntry" class="tag-entry" role="group" aria-labelledby="tagsLabel">
+              <div id="tagChips" class="tag-chips"></div>
+              <input id="tagInput" aria-label="Add a tag" placeholder="Add a tag…" autocomplete="off">
+            </div>
+          </div>
+          <div class="field-row specs-row">
+            <label class="field-label" for="productSpecs">Specs</label>
+            <textarea id="productSpecs" name="specs" rows="5" spellcheck="false" aria-describedby="specsHint"></textarea>
+            <span id="specsHint" class="visually-hidden">Enter the category-specific specifications as a JSON object.</span>
+          </div>
+          <p id="msg" class="form-message" role="status" aria-live="polite"></p>
+          <div class="actions">
+            <button class="button button-primary" type="submit" id="saveBtn">Save product</button>
+            <button class="button button-secondary" type="button" id="cancelBtn">Cancel</button>
+            <button class="button button-secondary delete-button" type="button" id="delBtn" hidden>Delete</button>
+          </div>
+        </form>
+      </section>
+
+      <section class="pane document-pane" aria-labelledby="documentTitle">
+        <div class="pane-heading">
+          <h2 id="documentTitle">MongoDB document</h2>
+        </div>
+        <div class="document-body">
+          <pre id="json" tabindex="0" aria-label="MongoDB document preview">Select a product to see how MongoDB stores it.</pre>
+        </div>
+      </section>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
 </body>
 </html>

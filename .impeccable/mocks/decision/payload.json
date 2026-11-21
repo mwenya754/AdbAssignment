@@ -1,0 +1,132 @@
+{
+  "title": "Choose the catalogue’s visual world",
+  "question": "The direction roll assigned the Specimen Register. Choose it, take an alternate, choose the familiar catalogue, or re-roll.",
+  "options": [
+    {
+      "id": "assigned",
+      "label": "Specimen Register",
+      "kicker": "THE ROLL",
+      "lineage": "museum accession registers and specimen labels",
+      "thesis": "Each product is an inspectable record students can edit and instructors can review.",
+      "palette": ["#F2F5F7", "#18252D", "#2457F5", "#D7EF62"],
+      "materials": ["matte record stock", "accession labels", "ruled document fields"],
+      "viewport": "A two-pane registry keeps the searchable product index beside the selected record’s edit form and readable MongoDB document.",
+      "risk": "If the register feels like an archive prop, the CRUD task and document structure lose clarity.",
+      "raised": [
+        {"from": "Darkroom exposure record", "raise": "Stock states use a word and a quantity as well as colour, so status stays clear at a glance."},
+        {"from": "Ticket wallet", "raise": "Availability and save feedback stay visible as the selected record changes."},
+        {"from": "Vertical media feed", "raise": "Selecting a record updates its inspector in place while the catalogue stays in view."}
+      ],
+      "comp": ".impeccable/mocks/decision/assigned.webp"
+    },
+    {
+      "id": "model-pick",
+      "label": "Document Workbench",
+      "kicker": "IMPECCABLE’S PICK",
+      "lineage": "database inspection workbenches",
+      "thesis": "The catalogue is a working surface for editing records and reading their document shape.",
+      "palette": ["#111820", "#202A35", "#F3F6F8", "#62D9C4"],
+      "materials": ["dense tabular data", "editor panes", "syntax-like field hierarchy"],
+      "viewport": "A compact product index sits beside an editor and BSON-style document preview, making the database demonstration direct.",
+      "risk": "It is familiar and may look too much like a generic database console.",
+      "comp": ".impeccable/mocks/decision/model-pick.webp"
+    },
+    {
+      "id": "challenger-crouwel",
+      "label": "Visible Grid Specimen",
+      "verdict": "competitive",
+      "lineage": "Wim Crouwel’s grid-based type specimens",
+      "thesis": "The product list and document fields become a clear, visible construction grid.",
+      "palette": ["#F4F6F7", "#152735", "#264FFF", "#DBF566"],
+      "materials": ["measured cells", "hairline rules", "oversized numeric labels"],
+      "viewport": "Product rows align to a strict grid; selecting one reveals its fields and nested specs in a two-column document map.",
+      "case": "Strong on product clarity through alignment; less tied to the student and instructor setting than the register.",
+      "risk": "Every record may feel like a poster instead of an editable product.",
+      "board": "https://impeccable.style/worlds/cards/crouwel-grid-specimen.webp",
+      "hero": "https://impeccable.style/worlds/cards/crouwel-grid-specimen-hero.webp",
+      "comp": ".impeccable/mocks/decision/challenger-crouwel.webp"
+    },
+    {
+      "id": "challenger-manual",
+      "label": "Reference Leaf",
+      "verdict": "competitive",
+      "lineage": "tabbed technical manuals with clear reference sections",
+      "thesis": "The catalogue behaves like an open reference manual for product records.",
+      "palette": ["#F4F6F3", "#1B2930", "#235BE9", "#F0C945"],
+      "materials": ["tabbed section board", "clear field overlays", "printed index rules"],
+      "viewport": "A persistent product index opens into a reference leaf with editable fields and a legible document view, using section tabs to aid wayfinding.",
+      "case": "Strong for the assignment’s explain-and-review scene; slower and more layered for quick edits.",
+      "risk": "The manual metaphor could make a live CRUD surface feel static.",
+      "board": "https://impeccable.style/worlds/cards/rw-manual-acetate-tab-board.webp",
+      "hero": "https://impeccable.style/worlds/cards/rw-manual-acetate-tab-board-hero.webp",
+      "comp": ".impeccable/mocks/decision/challenger-manual.webp"
+    },
+    {
+      "id": "challenger-consumer",
+      "label": "Action-Only Accent",
+      "verdict": "competitive",
+      "lineage": "warm consumer application surfaces",
+      "thesis": "The catalogue uses plain language and keeps its bright colour on usable actions.",
+      "palette": ["#F4F2EB", "#222821", "#38634B", "#C7EB67"],
+      "materials": ["soft touch surfaces", "humanist sans typography", "single action colour"],
+      "viewport": "The record list and inspector share one simple workspace, with an easy to reach add action and responsive touch targets.",
+      "case": "Strong for everyday usability; less distinctive and less explicit about MongoDB documents than the register.",
+      "risk": "It may resemble a generic consumer app instead of a technical assignment tool.",
+      "board": "https://impeccable.style/worlds/cards/digital-design-canon-warm-consumer-app-surface.webp",
+      "hero": "https://impeccable.style/worlds/cards/digital-design-canon-warm-consumer-app-surface-hero.webp",
+      "comp": ".impeccable/mocks/decision/challenger-consumer.webp"
+    },
+    {
+      "id": "challenger-darkroom",
+      "label": "Exposure Record",
+      "verdict": "declined",
+      "lineage": "darkroom exposure records and tracing sheets",
+      "thesis": "A product’s data is treated like measured exposure, layered and annotated.",
+      "palette": ["#14171B", "#C3CBD0", "#E838AF"],
+      "materials": ["translucent sheets", "zone hatching", "backlit field marks"],
+      "case": "Declined: the metaphor is too specialized for everyday catalogue work.",
+      "kept": "Use written stock labels and quantities, never colour alone, to show status clearly.",
+      "risk": "Its exposure vocabulary would obscure product fields.",
+      "hero": "https://impeccable.style/worlds/cards/operate-b-exposure-record-zone-sheets-hero.webp"
+    },
+    {
+      "id": "challenger-ticket",
+      "label": "Ticket Wallet",
+      "verdict": "declined",
+      "lineage": "jet-age airline ticket wallets and carbon-copy coupons",
+      "thesis": "Each product becomes a paper coupon with its own visible state.",
+      "palette": ["#F8F8F6", "#17263E", "#CC382C", "#5F586E"],
+      "materials": ["coupon stock", "carbon numerals", "tabbed route slips"],
+      "case": "Declined: a journey and sequence do not match product editing or document inspection.",
+      "kept": "Keep availability and form feedback visible as the selected record changes.",
+      "risk": "The ticket metaphor would imply a sequence the catalogue does not have.",
+      "hero": "https://impeccable.style/worlds/cards/vernacular-ephemera-jet-age-ticket-wallet-hero.webp"
+    },
+    {
+      "id": "challenger-feed",
+      "label": "Single-Item Feed",
+      "verdict": "declined",
+      "lineage": "full-screen vertical media feeds",
+      "thesis": "Each product takes the full screen and advances one at a time.",
+      "palette": ["#101114", "#F7F7F6", "#B8FC43"],
+      "materials": ["edge-to-edge media", "snap navigation", "fixed action rail"],
+      "case": "Declined: one-item paging fights the need to scan several products and compare stock.",
+      "kept": "Keep the selected record’s inspector in view without hiding the product index.",
+      "risk": "The feed would remove the comparison context the assignment needs.",
+      "hero": "https://impeccable.style/worlds/cards/pop-culture-shelf-vertical-video-feed-surface-hero.webp"
+    }
+  ],
+  "reroll": {"registers": ["safer", "bolder"]},
+  "buildPath": {"value": "comp", "toggle": true},
+  "canon": true,
+  "canonCard": {
+    "label": "The category standard",
+    "thesis": "A conventional CRUD catalogue, executed with exceptional clarity.",
+    "palette": ["#FFFFFF", "#1F2937", "#2563EB"],
+    "materials": ["clean table", "white surfaces", "simple form controls"],
+    "viewport": "A product table, search and category filters, side edit form, and stored JSON preview.",
+    "risk": "Familiar and effective, but indistinguishable from other catalogue dashboards.",
+    "comp": ".impeccable/mocks/decision/canon.webp"
+  },
+  "steer": true
+}

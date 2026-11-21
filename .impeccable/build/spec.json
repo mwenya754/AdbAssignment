@@ -1,0 +1,1327 @@
+{
+  "tool": "comp-spec",
+  "version": 1,
+  "createdAt": "2026-11-21T19:21:31.263Z",
+  "comp": ".impeccable/mocks/catalogue-first.webp",
+  "warnings": [
+    "region page-ground: \"container\": true set in the regions file (the region-size refusal is overridden: one undivided element)",
+    "region product-index: \"container\": true set in the regions file (the region-size refusal is overridden: one undivided element)",
+    "region edit-pane: \"container\": true set in the regions file (the region-size refusal is overridden: one undivided element)",
+    "region document-pane: \"container\": true set in the regions file (the region-size refusal is overridden: one undivided element)"
+  ],
+  "uncoveredInkCells": [],
+  "compSize": {
+    "width": 1487,
+    "height": 1058
+  },
+  "aspect": 1.4055,
+  "orientation": "landscape",
+  "palette": [
+    {
+      "hex": "#ebf7f8",
+      "coverage": 0.7649
+    },
+    {
+      "hex": "#182838",
+      "coverage": 0.151
+    },
+    {
+      "hex": "#1857f6",
+      "coverage": 0.0561
+    },
+    {
+      "hex": "#7f8890",
+      "coverage": 0.0162
+    },
+    {
+      "hex": "#173030",
+      "coverage": 0.0118
+    }
+  ],
+  "bands": [
+    {
+      "y": 0.022,
+      "strength": 0.4498
+    },
+    {
+      "y": 0.0659,
+      "strength": 1
+    },
+    {
+      "y": 0.1319,
+      "strength": 0.4862
+    },
+    {
+      "y": 0.1538,
+      "strength": 1
+    },
+    {
+      "y": 0.1978,
+      "strength": 1
+    },
+    {
+      "y": 0.2198,
+      "strength": 0.3068
+    },
+    {
+      "y": 0.2527,
+      "strength": 1
+    },
+    {
+      "y": 0.2747,
+      "strength": 0.3917
+    },
+    {
+      "y": 0.2967,
+      "strength": 0.2597
+    },
+    {
+      "y": 0.3297,
+      "strength": 0.3617
+    },
+    {
+      "y": 0.3516,
+      "strength": 0.2477
+    },
+    {
+      "y": 0.3846,
+      "strength": 0.3906
+    },
+    {
+      "y": 0.4066,
+      "strength": 0.2643
+    },
+    {
+      "y": 0.4615,
+      "strength": 1
+    },
+    {
+      "y": 0.4945,
+      "strength": 1
+    },
+    {
+      "y": 0.5165,
+      "strength": 0.3442
+    },
+    {
+      "y": 0.6044,
+      "strength": 0.2579
+    },
+    {
+      "y": 0.8132,
+      "strength": 0.2038
+    },
+    {
+      "y": 0.956,
+      "strength": 0.2016
+    }
+  ],
+  "regions": [
+    {
+      "id": "page-ground",
+      "kind": "chrome",
+      "note": "Uniform pale cool page ground underneath the interface.",
+      "grid": null,
+      "container": true,
+      "box": {
+        "x": 0,
+        "y": 0,
+        "w": 1,
+        "h": 1
+      },
+      "px": {
+        "x": 0,
+        "y": 0,
+        "w": 1487,
+        "h": 1058
+      },
+      "aspect": 1.4055,
+      "palette": [
+        {
+          "hex": "#ebf7f8",
+          "coverage": 0.7649
+        },
+        {
+          "hex": "#182838",
+          "coverage": 0.151
+        },
+        {
+          "hex": "#1857f6",
+          "coverage": 0.0561
+        },
+        {
+          "hex": "#7f8890",
+          "coverage": 0.0162
+        },
+        {
+          "hex": "#173030",
+          "coverage": 0.0118
+        }
+      ],
+      "detail": {
+        "energy": 35.0988
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null
+    },
+    {
+      "id": "masthead",
+      "kind": "chrome",
+      "note": "Full-width deep blue-black title bar.",
+      "grid": null,
+      "box": {
+        "x": 0,
+        "y": 0,
+        "w": 1,
+        "h": 0.063
+      },
+      "px": {
+        "x": 0,
+        "y": 0,
+        "w": 1487,
+        "h": 67
+      },
+      "aspect": 22.194,
+      "palette": [
+        {
+          "hex": "#182838",
+          "coverage": 0.8168
+        },
+        {
+          "hex": "#1957f5",
+          "coverage": 0.0663
+        },
+        {
+          "hex": "#7b898e",
+          "coverage": 0.0494
+        },
+        {
+          "hex": "#f4f7f7",
+          "coverage": 0.0408
+        },
+        {
+          "hex": "#e2f463",
+          "coverage": 0.0268
+        }
+      ],
+      "detail": {
+        "energy": 35.1447
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null
+    },
+    {
+      "id": "page-title",
+      "kind": "text",
+      "note": "Large bold Product catalogue title.",
+      "grid": null,
+      "box": {
+        "x": 0.02,
+        "y": 0.01,
+        "w": 0.25,
+        "h": 0.045
+      },
+      "px": {
+        "x": 30,
+        "y": 11,
+        "w": 372,
+        "h": 48
+      },
+      "aspect": 7.75,
+      "palette": [
+        {
+          "hex": "#182838",
+          "coverage": 0.6444
+        },
+        {
+          "hex": "#f3f5f5",
+          "coverage": 0.1922
+        },
+        {
+          "hex": "#152e2e",
+          "coverage": 0.0873
+        },
+        {
+          "hex": "#7e8c94",
+          "coverage": 0.0382
+        },
+        {
+          "hex": "#46555c",
+          "coverage": 0.0377
+        }
+      ],
+      "detail": {
+        "energy": 68.2899
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null,
+      "type": {
+        "comp": {
+          "lines": 1,
+          "glyphs": 16,
+          "capHeightPx": 29.5,
+          "inkIsDark": false,
+          "allCaps": false,
+          "advance": 0.6102,
+          "advTall": 0.5085,
+          "advX": 0.6271,
+          "gap": 0.0678,
+          "xRatio": 0.7119,
+          "stemW": 0.2107,
+          "contrast": 1.2192,
+          "serif": null,
+          "densTall": 0.5891,
+          "densX": 0.6365,
+          "weight": 0.5891
+        },
+        "widthClass": "normal",
+        "weightClass": "bold",
+        "chosen": {
+          "family": "Assistant",
+          "weight": 700,
+          "fontSizePx": 42,
+          "source": "catalog",
+          "estimatedSize": true,
+          "stamp": "0a0fc1dee750"
+        }
+      }
+    },
+    {
+      "id": "sample-marker",
+      "kind": "control",
+      "note": "Chartreuse Sample data label beside the title.",
+      "grid": null,
+      "box": {
+        "x": 0.283,
+        "y": 0.014,
+        "w": 0.087,
+        "h": 0.034
+      },
+      "px": {
+        "x": 421,
+        "y": 15,
+        "w": 129,
+        "h": 36
+      },
+      "aspect": 3.5833,
+      "palette": [
+        {
+          "hex": "#e2f462",
+          "coverage": 0.652
+        },
+        {
+          "hex": "#182831",
+          "coverage": 0.1982
+        },
+        {
+          "hex": "#0d1108",
+          "coverage": 0.0617
+        },
+        {
+          "hex": "#e6f185",
+          "coverage": 0.0507
+        },
+        {
+          "hex": "#3f4914",
+          "coverage": 0.0374
+        }
+      ],
+      "detail": {
+        "energy": 40.5958
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null
+    },
+    {
+      "id": "add-product",
+      "kind": "control",
+      "note": "Cobalt Add product action at the top right.",
+      "grid": null,
+      "box": {
+        "x": 0.86,
+        "y": 0.007,
+        "w": 0.125,
+        "h": 0.048
+      },
+      "px": {
+        "x": 1279,
+        "y": 7,
+        "w": 186,
+        "h": 51
+      },
+      "aspect": 3.6471,
+      "palette": [
+        {
+          "hex": "#1957f3",
+          "coverage": 0.7275
+        },
+        {
+          "hex": "#eaf6f8",
+          "coverage": 0.0889
+        },
+        {
+          "hex": "#2455d3",
+          "coverage": 0.0859
+        },
+        {
+          "hex": "#082841",
+          "coverage": 0.0771
+        },
+        {
+          "hex": "#4471d6",
+          "coverage": 0.0205
+        }
+      ],
+      "detail": {
+        "energy": 20.6414
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null
+    },
+    {
+      "id": "search-filter-row",
+      "kind": "control",
+      "note": "Search by product name or tag and filter by category, in two horizontally aligned labeled controls.",
+      "grid": null,
+      "box": {
+        "x": 0.016,
+        "y": 0.078,
+        "w": 0.968,
+        "h": 0.051
+      },
+      "px": {
+        "x": 24,
+        "y": 83,
+        "w": 1439,
+        "h": 54
+      },
+      "aspect": 26.6481,
+      "palette": [
+        {
+          "hex": "#eff7f8",
+          "coverage": 0.769
+        },
+        {
+          "hex": "#182836",
+          "coverage": 0.1479
+        },
+        {
+          "hex": "#717882",
+          "coverage": 0.0644
+        },
+        {
+          "hex": "#c0cbce",
+          "coverage": 0.0114
+        },
+        {
+          "hex": "#173535",
+          "coverage": 0.0073
+        }
+      ],
+      "detail": {
+        "energy": 37.8107
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null
+    },
+    {
+      "id": "product-index",
+      "kind": "chrome",
+      "note": "Wide five-column product index with a dark heading band, thin row rules, selected cobalt row and stock labels.",
+      "grid": null,
+      "container": true,
+      "box": {
+        "x": 0.016,
+        "y": 0.154,
+        "w": 0.968,
+        "h": 0.269
+      },
+      "px": {
+        "x": 24,
+        "y": 163,
+        "w": 1439,
+        "h": 285
+      },
+      "aspect": 5.0491,
+      "palette": [
+        {
+          "hex": "#e8f6f7",
+          "coverage": 0.6203
+        },
+        {
+          "hex": "#1858f7",
+          "coverage": 0.1837
+        },
+        {
+          "hex": "#182837",
+          "coverage": 0.1536
+        },
+        {
+          "hex": "#ddf359",
+          "coverage": 0.0269
+        },
+        {
+          "hex": "#969da8",
+          "coverage": 0.0155
+        }
+      ],
+      "detail": {
+        "energy": 34.5723
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null
+    },
+    {
+      "id": "table-heading-band",
+      "kind": "chrome",
+      "note": "Deep blue-black heading row for Product, Category, Price (ZMW), Stock and Status.",
+      "grid": null,
+      "box": {
+        "x": 0.016,
+        "y": 0.154,
+        "w": 0.968,
+        "h": 0.047
+      },
+      "px": {
+        "x": 24,
+        "y": 163,
+        "w": 1439,
+        "h": 50
+      },
+      "aspect": 28.78,
+      "palette": [
+        {
+          "hex": "#182837",
+          "coverage": 0.794
+        },
+        {
+          "hex": "#dae7ea",
+          "coverage": 0.1387
+        },
+        {
+          "hex": "#142f2f",
+          "coverage": 0.0291
+        },
+        {
+          "hex": "#b3cae9",
+          "coverage": 0.0261
+        },
+        {
+          "hex": "#7d8b8e",
+          "coverage": 0.0122
+        }
+      ],
+      "detail": {
+        "energy": 47.2111
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null
+    },
+    {
+      "id": "selected-row",
+      "kind": "control",
+      "note": "Selected Samsung Galaxy A15 row in cobalt with category, formatted price, stock and in-stock badge.",
+      "grid": null,
+      "box": {
+        "x": 0.016,
+        "y": 0.2,
+        "w": 0.968,
+        "h": 0.056
+      },
+      "px": {
+        "x": 24,
+        "y": 212,
+        "w": 1439,
+        "h": 59
+      },
+      "aspect": 24.3898,
+      "palette": [
+        {
+          "hex": "#1857f6",
+          "coverage": 0.8596
+        },
+        {
+          "hex": "#1b4dcd",
+          "coverage": 0.0435
+        },
+        {
+          "hex": "#92c0f8",
+          "coverage": 0.0365
+        },
+        {
+          "hex": "#dff459",
+          "coverage": 0.0316
+        },
+        {
+          "hex": "#ebf6f8",
+          "coverage": 0.0288
+        }
+      ],
+      "detail": {
+        "energy": 31.1841
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null
+    },
+    {
+      "id": "second-row",
+      "kind": "control",
+      "note": "Tecno Spark 20 row with category, formatted price, stock and in-stock badge.",
+      "grid": null,
+      "box": {
+        "x": 0.016,
+        "y": 0.256,
+        "w": 0.968,
+        "h": 0.055
+      },
+      "px": {
+        "x": 24,
+        "y": 271,
+        "w": 1439,
+        "h": 58
+      },
+      "aspect": 24.8103,
+      "palette": [
+        {
+          "hex": "#e9f7f8",
+          "coverage": 0.9301
+        },
+        {
+          "hex": "#def45a",
+          "coverage": 0.0303
+        },
+        {
+          "hex": "#0e131f",
+          "coverage": 0.0196
+        },
+        {
+          "hex": "#5e636e",
+          "coverage": 0.0112
+        },
+        {
+          "hex": "#e4f1a1",
+          "coverage": 0.0088
+        }
+      ],
+      "detail": {
+        "energy": 25.0635
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null
+    },
+    {
+      "id": "third-row",
+      "kind": "control",
+      "note": "iPhone 13 row with category, formatted price, low stock number and low-stock badge.",
+      "grid": null,
+      "box": {
+        "x": 0.016,
+        "y": 0.312,
+        "w": 0.968,
+        "h": 0.055
+      },
+      "px": {
+        "x": 24,
+        "y": 330,
+        "w": 1439,
+        "h": 58
+      },
+      "aspect": 24.8103,
+      "palette": [
+        {
+          "hex": "#e8f7f7",
+          "coverage": 0.8859
+        },
+        {
+          "hex": "#a6b0b5",
+          "coverage": 0.0591
+        },
+        {
+          "hex": "#dcf359",
+          "coverage": 0.0323
+        },
+        {
+          "hex": "#0a0c17",
+          "coverage": 0.0155
+        },
+        {
+          "hex": "#e6f69f",
+          "coverage": 0.0072
+        }
+      ],
+      "detail": {
+        "energy": 24.2482
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null
+    },
+    {
+      "id": "fourth-row",
+      "kind": "control",
+      "note": "Cotton T-Shirt row with category, formatted price, stock and in-stock badge.",
+      "grid": null,
+      "box": {
+        "x": 0.016,
+        "y": 0.368,
+        "w": 0.968,
+        "h": 0.055
+      },
+      "px": {
+        "x": 24,
+        "y": 389,
+        "w": 1439,
+        "h": 58
+      },
+      "aspect": 24.8103,
+      "palette": [
+        {
+          "hex": "#e8f7f7",
+          "coverage": 0.9063
+        },
+        {
+          "hex": "#babfcc",
+          "coverage": 0.0373
+        },
+        {
+          "hex": "#ddf259",
+          "coverage": 0.0295
+        },
+        {
+          "hex": "#0a0c17",
+          "coverage": 0.0195
+        },
+        {
+          "hex": "#dfeb7c",
+          "coverage": 0.0073
+        }
+      ],
+      "detail": {
+        "energy": 24.7291
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null
+    },
+    {
+      "id": "edit-pane",
+      "kind": "chrome",
+      "note": "Bordered edit form pane with a dark header, aligned labels and controls, and an action row.",
+      "grid": null,
+      "container": true,
+      "box": {
+        "x": 0.016,
+        "y": 0.456,
+        "w": 0.48,
+        "h": 0.522
+      },
+      "px": {
+        "x": 24,
+        "y": 482,
+        "w": 714,
+        "h": 552
+      },
+      "aspect": 1.2935,
+      "palette": [
+        {
+          "hex": "#f2f7f8",
+          "coverage": 0.7748
+        },
+        {
+          "hex": "#172737",
+          "coverage": 0.1465
+        },
+        {
+          "hex": "#7b828c",
+          "coverage": 0.0303
+        },
+        {
+          "hex": "#ccd6ed",
+          "coverage": 0.0275
+        },
+        {
+          "hex": "#b5bec2",
+          "coverage": 0.0209
+        }
+      ],
+      "detail": {
+        "energy": 31.4751
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null
+    },
+    {
+      "id": "edit-pane-title",
+      "kind": "text",
+      "note": "Edit product heading in the pane's deep blue-black header.",
+      "grid": null,
+      "box": {
+        "x": 0.033,
+        "y": 0.465,
+        "w": 0.24,
+        "h": 0.03
+      },
+      "px": {
+        "x": 49,
+        "y": 492,
+        "w": 357,
+        "h": 32
+      },
+      "aspect": 11.1563,
+      "palette": [
+        {
+          "hex": "#182838",
+          "coverage": 0.7892
+        },
+        {
+          "hex": "#f2f5f6",
+          "coverage": 0.1069
+        },
+        {
+          "hex": "#183131",
+          "coverage": 0.0754
+        },
+        {
+          "hex": "#b0b8bf",
+          "coverage": 0.0208
+        },
+        {
+          "hex": "#485862",
+          "coverage": 0.0077
+        }
+      ],
+      "detail": {
+        "energy": 42.3149
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null,
+      "type": {
+        "comp": {
+          "lines": 1,
+          "glyphs": 11,
+          "capHeightPx": 19.8,
+          "inkIsDark": false,
+          "allCaps": false,
+          "advance": 0.6329,
+          "advTall": 0.5822,
+          "advX": 0.6329,
+          "gap": 0.1013,
+          "xRatio": 0.7181,
+          "stemW": 0.2232,
+          "contrast": 1.2294,
+          "serif": null,
+          "densTall": 0.6179,
+          "densX": 0.6227,
+          "weight": 0.6179
+        },
+        "widthClass": "normal",
+        "weightClass": "bold"
+      }
+    },
+    {
+      "id": "name-field",
+      "kind": "control",
+      "note": "Name label and text field for Samsung Galaxy A15.",
+      "grid": null,
+      "box": {
+        "x": 0.03,
+        "y": 0.517,
+        "w": 0.452,
+        "h": 0.04
+      },
+      "px": {
+        "x": 45,
+        "y": 547,
+        "w": 672,
+        "h": 42
+      },
+      "aspect": 16,
+      "palette": [
+        {
+          "hex": "#f6f7f8",
+          "coverage": 0.7824
+        },
+        {
+          "hex": "#192838",
+          "coverage": 0.1579
+        },
+        {
+          "hex": "#183333",
+          "coverage": 0.0312
+        },
+        {
+          "hex": "#6d7179",
+          "coverage": 0.0158
+        },
+        {
+          "hex": "#090910",
+          "coverage": 0.0128
+        }
+      ],
+      "detail": {
+        "energy": 39.7477
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null
+    },
+    {
+      "id": "category-field",
+      "kind": "control",
+      "note": "Category label and Phones select field.",
+      "grid": null,
+      "box": {
+        "x": 0.03,
+        "y": 0.565,
+        "w": 0.452,
+        "h": 0.04
+      },
+      "px": {
+        "x": 45,
+        "y": 598,
+        "w": 672,
+        "h": 42
+      },
+      "aspect": 16,
+      "palette": [
+        {
+          "hex": "#f6f7f8",
+          "coverage": 0.7007
+        },
+        {
+          "hex": "#182838",
+          "coverage": 0.1226
+        },
+        {
+          "hex": "#b9bdc7",
+          "coverage": 0.0649
+        },
+        {
+          "hex": "#828790",
+          "coverage": 0.0619
+        },
+        {
+          "hex": "#1a3434",
+          "coverage": 0.0499
+        }
+      ],
+      "detail": {
+        "energy": 33.1413
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null
+    },
+    {
+      "id": "price-field",
+      "kind": "control",
+      "note": "Price label and 2800 ZMW number field.",
+      "grid": null,
+      "box": {
+        "x": 0.03,
+        "y": 0.612,
+        "w": 0.452,
+        "h": 0.04
+      },
+      "px": {
+        "x": 45,
+        "y": 647,
+        "w": 672,
+        "h": 42
+      },
+      "aspect": 16,
+      "palette": [
+        {
+          "hex": "#f5f6f6",
+          "coverage": 0.7537
+        },
+        {
+          "hex": "#182838",
+          "coverage": 0.1401
+        },
+        {
+          "hex": "#7e8792",
+          "coverage": 0.0748
+        },
+        {
+          "hex": "#1b3636",
+          "coverage": 0.0249
+        },
+        {
+          "hex": "#08080d",
+          "coverage": 0.0065
+        }
+      ],
+      "detail": {
+        "energy": 30.4439
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null
+    },
+    {
+      "id": "stock-field",
+      "kind": "control",
+      "note": "Stock label and 14 unit number field.",
+      "grid": null,
+      "box": {
+        "x": 0.03,
+        "y": 0.66,
+        "w": 0.452,
+        "h": 0.04
+      },
+      "px": {
+        "x": 45,
+        "y": 698,
+        "w": 672,
+        "h": 42
+      },
+      "aspect": 16,
+      "palette": [
+        {
+          "hex": "#f7f7f8",
+          "coverage": 0.7043
+        },
+        {
+          "hex": "#182838",
+          "coverage": 0.1463
+        },
+        {
+          "hex": "#c5c9d0",
+          "coverage": 0.0615
+        },
+        {
+          "hex": "#717881",
+          "coverage": 0.0612
+        },
+        {
+          "hex": "#1a3434",
+          "coverage": 0.0267
+        }
+      ],
+      "detail": {
+        "energy": 26.4991
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null
+    },
+    {
+      "id": "tags-field",
+      "kind": "control",
+      "note": "Tags label and android and budget tag chips.",
+      "grid": null,
+      "box": {
+        "x": 0.03,
+        "y": 0.708,
+        "w": 0.452,
+        "h": 0.046
+      },
+      "px": {
+        "x": 45,
+        "y": 749,
+        "w": 672,
+        "h": 49
+      },
+      "aspect": 13.7143,
+      "palette": [
+        {
+          "hex": "#f5f6f7",
+          "coverage": 0.5569
+        },
+        {
+          "hex": "#c9d7f4",
+          "coverage": 0.2023
+        },
+        {
+          "hex": "#162636",
+          "coverage": 0.166
+        },
+        {
+          "hex": "#7e878e",
+          "coverage": 0.0541
+        },
+        {
+          "hex": "#a7b5b7",
+          "coverage": 0.0207
+        }
+      ],
+      "detail": {
+        "energy": 30.1479
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null
+    },
+    {
+      "id": "specs-field",
+      "kind": "control",
+      "note": "Specs label with a compact multiline object containing storage, ram and battery values.",
+      "grid": null,
+      "box": {
+        "x": 0.03,
+        "y": 0.763,
+        "w": 0.452,
+        "h": 0.12
+      },
+      "px": {
+        "x": 45,
+        "y": 807,
+        "w": 672,
+        "h": 127
+      },
+      "aspect": 5.2913,
+      "palette": [
+        {
+          "hex": "#f4f7f8",
+          "coverage": 0.901
+        },
+        {
+          "hex": "#182737",
+          "coverage": 0.0529
+        },
+        {
+          "hex": "#8a8c9a",
+          "coverage": 0.027
+        },
+        {
+          "hex": "#606e76",
+          "coverage": 0.0098
+        },
+        {
+          "hex": "#090a11",
+          "coverage": 0.0093
+        }
+      ],
+      "detail": {
+        "energy": 22.2501
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null
+    },
+    {
+      "id": "form-actions",
+      "kind": "control",
+      "note": "Save product, Cancel and Delete buttons in one aligned action row.",
+      "grid": null,
+      "box": {
+        "x": 0.03,
+        "y": 0.907,
+        "w": 0.338,
+        "h": 0.052
+      },
+      "px": {
+        "x": 45,
+        "y": 960,
+        "w": 503,
+        "h": 55
+      },
+      "aspect": 9.1455,
+      "palette": [
+        {
+          "hex": "#eaf6f7",
+          "coverage": 0.6473
+        },
+        {
+          "hex": "#1a57f5",
+          "coverage": 0.3037
+        },
+        {
+          "hex": "#0f1125",
+          "coverage": 0.019
+        },
+        {
+          "hex": "#7a9ae8",
+          "coverage": 0.0152
+        },
+        {
+          "hex": "#59616d",
+          "coverage": 0.0149
+        }
+      ],
+      "detail": {
+        "energy": 43.3249
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null
+    },
+    {
+      "id": "document-pane",
+      "kind": "chrome",
+      "note": "Bordered MongoDB document pane with a dark header and a large readable nested-object preview.",
+      "grid": null,
+      "container": true,
+      "box": {
+        "x": 0.507,
+        "y": 0.456,
+        "w": 0.478,
+        "h": 0.522
+      },
+      "px": {
+        "x": 754,
+        "y": 482,
+        "w": 711,
+        "h": 552
+      },
+      "aspect": 1.288,
+      "palette": [
+        {
+          "hex": "#e9f8f8",
+          "coverage": 0.8854
+        },
+        {
+          "hex": "#172737",
+          "coverage": 0.0692
+        },
+        {
+          "hex": "#8e949e",
+          "coverage": 0.0217
+        },
+        {
+          "hex": "#c4cad1",
+          "coverage": 0.0161
+        },
+        {
+          "hex": "#090b0f",
+          "coverage": 0.0075
+        }
+      ],
+      "detail": {
+        "energy": 18.3518
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null
+    },
+    {
+      "id": "document-pane-title",
+      "kind": "text",
+      "note": "MongoDB document heading in the pane's deep blue-black header.",
+      "grid": null,
+      "box": {
+        "x": 0.52,
+        "y": 0.465,
+        "w": 0.32,
+        "h": 0.03
+      },
+      "px": {
+        "x": 773,
+        "y": 492,
+        "w": 476,
+        "h": 32
+      },
+      "aspect": 14.875,
+      "palette": [
+        {
+          "hex": "#182838",
+          "coverage": 0.773
+        },
+        {
+          "hex": "#f5f7f8",
+          "coverage": 0.115
+        },
+        {
+          "hex": "#183030",
+          "coverage": 0.0674
+        },
+        {
+          "hex": "#bdc5cc",
+          "coverage": 0.024
+        },
+        {
+          "hex": "#48575e",
+          "coverage": 0.0205
+        }
+      ],
+      "detail": {
+        "energy": 62.6466
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null,
+      "type": {
+        "comp": {
+          "lines": 1,
+          "glyphs": 15,
+          "capHeightPx": 18.5,
+          "inkIsDark": false,
+          "allCaps": false,
+          "advance": 0.7588,
+          "advTall": 0.7588,
+          "advX": 0.7317,
+          "gap": 0.1084,
+          "xRatio": 0.7721,
+          "stemW": 0.2408,
+          "contrast": 1.2201,
+          "serif": null,
+          "densTall": 0.6412,
+          "densX": 0.6839,
+          "weight": 0.6412
+        },
+        "widthClass": "wide",
+        "weightClass": "bold"
+      }
+    },
+    {
+      "id": "document-preview",
+      "kind": "control",
+      "note": "Monospaced nested document preview for the same selected product, including tags and specs.",
+      "grid": null,
+      "box": {
+        "x": 0.52,
+        "y": 0.517,
+        "w": 0.452,
+        "h": 0.39
+      },
+      "px": {
+        "x": 773,
+        "y": 547,
+        "w": 672,
+        "h": 413
+      },
+      "aspect": 1.6271,
+      "palette": [
+        {
+          "hex": "#e9f8f8",
+          "coverage": 0.9498
+        },
+        {
+          "hex": "#bec4cb",
+          "coverage": 0.0274
+        },
+        {
+          "hex": "#0b0c12",
+          "coverage": 0.0121
+        },
+        {
+          "hex": "#91949b",
+          "coverage": 0.0057
+        },
+        {
+          "hex": "#676973",
+          "coverage": 0.005
+        }
+      ],
+      "detail": {
+        "energy": 16.9138
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null
+    }
+  ]
+}

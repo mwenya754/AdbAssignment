@@ -1,0 +1,37 @@
+{
+  "title": "Choose the Specimen Register layout",
+  "question": "All three share the approved visual world and real sample content. Which composition should I build? You can also say what to combine or revise.",
+  "options": [
+    {
+      "id": "open-register",
+      "label": "Open Register",
+      "thesis": "The product index stays beside the selected record’s edit and document views.",
+      "palette": ["#F2F5F7", "#18252D", "#2457F5", "#D7EF62"],
+      "materials": ["matte record stock", "accession labels", "ruled document fields"],
+      "viewport": "A two-pane screen: searchable product rows at left, editable fields and nested MongoDB document stacked at right.",
+      "risk": "The index is narrower, so fewer products fit across its columns.",
+      "comp": ".impeccable/mocks/comp-round/open-register.webp"
+    },
+    {
+      "id": "catalogue-first",
+      "label": "Catalogue-First Spread",
+      "thesis": "A broad product index lets both users scan before opening the selected record.",
+      "palette": ["#F2F5F7", "#18252D", "#2457F5", "#D7EF62"],
+      "materials": ["matte record stock", "accession labels", "ruled document fields"],
+      "viewport": "A full-width searchable index occupies the upper half; below it, the edit form sits beside the MongoDB document.",
+      "risk": "The selected record begins lower on the page, so editing takes more vertical space.",
+      "comp": ".impeccable/mocks/comp-round/catalogue-first.webp"
+    },
+    {
+      "id": "three-pane",
+      "label": "Three-Panel Record Desk",
+      "thesis": "Product browsing, editing, and document inspection each get a dedicated adjacent pane.",
+      "palette": ["#F2F5F7", "#18252D", "#2457F5", "#D7EF62"],
+      "materials": ["matte record stock", "accession labels", "ruled document fields"],
+      "viewport": "The product index, edit form, and nested MongoDB document appear as three parallel columns.",
+      "risk": "All three panels become tighter, especially on small screens.",
+      "comp": ".impeccable/mocks/comp-round/three-pane.webp"
+    }
+  ],
+  "steer": true
+}

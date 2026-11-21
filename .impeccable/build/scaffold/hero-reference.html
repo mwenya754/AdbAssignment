@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Scaffold reference: catalogue-first.webp</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Assistant:wght@700&display=swap">
+  <link rel="stylesheet" href="layout.css">
+  <style>html,body{margin:0}body{background:#ebf7f8}.region{box-sizing:border-box}.region.text p{white-space:pre-wrap}</style>
+</head>
+<body>
+<!-- Reference only. Every region sits at its measured box inside a comp-aspect frame. Take the boxes (layout.css), keep your own semantic structure. -->
+<main class="comp-frame" style="max-width:1487px">
+  <div class="r-page-ground region chrome" data-region="page-ground"><!-- Uniform pale cool page ground underneath the interface. --></div>
+  <div class="r-masthead region chrome" data-region="masthead"><!-- Full-width deep blue-black title bar. --></div>
+  <div class="r-page-title region text" data-region="page-title"><!-- Large bold Product catalogue title. --><p style="font-size:var(--r-page-title-font);font-family:var(--r-page-title-family),sans-serif;font-weight:var(--r-page-title-weight);line-height:1.05;margin:0">page-title</p></div>
+  <div class="r-sample-marker region control" data-region="sample-marker"><!-- Chartreuse Sample data label beside the title.: rebuild the control's chrome from the crop (comp-spec.mjs --crop sample-marker); its ink box, border, fill, radius, and label size are the comp's --></div>
+  <div class="r-add-product region control" data-region="add-product"><!-- Cobalt Add product action at the top right.: rebuild the control's chrome from the crop (comp-spec.mjs --crop add-product); its ink box, border, fill, radius, and label size are the comp's --></div>
+  <div class="r-search-filter-row region control" data-region="search-filter-row"><!-- Search by product name or tag and filter by category, in two horizontally aligned labeled controls.: rebuild the control's chrome from the crop (comp-spec.mjs --crop search-filter-row); its ink box, border, fill, radius, and label size are the comp's --></div>
+  <div class="r-product-index region chrome" data-region="product-index"><!-- Wide five-column product index with a dark heading band, thin row rules, selected cobalt row and stock labels. --></div>
+  <div class="r-table-heading-band region chrome" data-region="table-heading-band"><!-- Deep blue-black heading row for Product, Category, Price (ZMW), Stock and Status. --></div>
+  <div class="r-selected-row region control" data-region="selected-row"><!-- Selected Samsung Galaxy A15 row in cobalt with category, formatted price, stock and in-stock badge.: rebuild the control's chrome from the crop (comp-spec.mjs --crop selected-row); its ink box, border, fill, radius, and label size are the comp's --></div>
+  <div class="r-second-row region control" data-region="second-row"><!-- Tecno Spark 20 row with category, formatted price, stock and in-stock badge.: rebuild the control's chrome from the crop (comp-spec.mjs --crop second-row); its ink box, border, fill, radius, and label size are the comp's --></div>
+  <div class="r-third-row region control" data-region="third-row"><!-- iPhone 13 row with category, formatted price, low stock number and low-stock badge.: rebuild the control's chrome from the crop (comp-spec.mjs --crop third-row); its ink box, border, fill, radius, and label size are the comp's --></div>
+  <div class="r-fourth-row region control" data-region="fourth-row"><!-- Cotton T-Shirt row with category, formatted price, stock and in-stock badge.: rebuild the control's chrome from the crop (comp-spec.mjs --crop fourth-row); its ink box, border, fill, radius, and label size are the comp's --></div>
+  <div class="r-edit-pane region chrome" data-region="edit-pane"><!-- Bordered edit form pane with a dark header, aligned labels and controls, and an action row. --></div>
+  <div class="r-edit-pane-title region text" data-region="edit-pane-title"><!-- Edit product heading in the pane's deep blue-black header. --><p style="font-size:var(--r-edit-pane-title-font);line-height:1.05;margin:0">edit-pane-title</p></div>
+  <div class="r-name-field region control" data-region="name-field"><!-- Name label and text field for Samsung Galaxy A15.: rebuild the control's chrome from the crop (comp-spec.mjs --crop name-field); its ink box, border, fill, radius, and label size are the comp's --></div>
+  <div class="r-category-field region control" data-region="category-field"><!-- Category label and Phones select field.: rebuild the control's chrome from the crop (comp-spec.mjs --crop category-field); its ink box, border, fill, radius, and label size are the comp's --></div>
+  <div class="r-price-field region control" data-region="price-field"><!-- Price label and 2800 ZMW number field.: rebuild the control's chrome from the crop (comp-spec.mjs --crop price-field); its ink box, border, fill, radius, and label size are the comp's --></div>
+  <div class="r-stock-field region control" data-region="stock-field"><!-- Stock label and 14 unit number field.: rebuild the control's chrome from the crop (comp-spec.mjs --crop stock-field); its ink box, border, fill, radius, and label size are the comp's --></div>
+  <div class="r-tags-field region control" data-region="tags-field"><!-- Tags label and android and budget tag chips.: rebuild the control's chrome from the crop (comp-spec.mjs --crop tags-field); its ink box, border, fill, radius, and label size are the comp's --></div>
+  <div class="r-specs-field region control" data-region="specs-field"><!-- Specs label with a compact multiline object containing storage, ram and battery values.: rebuild the control's chrome from the crop (comp-spec.mjs --crop specs-field); its ink box, border, fill, radius, and label size are the comp's --></div>
+  <div class="r-form-actions region control" data-region="form-actions"><!-- Save product, Cancel and Delete buttons in one aligned action row.: rebuild the control's chrome from the crop (comp-spec.mjs --crop form-actions); its ink box, border, fill, radius, and label size are the comp's --></div>
+  <div class="r-document-pane region chrome" data-region="document-pane"><!-- Bordered MongoDB document pane with a dark header and a large readable nested-object preview. --></div>
+  <div class="r-document-pane-title region text" data-region="document-pane-title"><!-- MongoDB document heading in the pane's deep blue-black header. --><p style="font-size:var(--r-document-pane-title-font);line-height:1.05;margin:0">document-pane-title</p></div>
+  <div class="r-document-preview region control" data-region="document-preview"><!-- Monospaced nested document preview for the same selected product, including tags and specs.: rebuild the control's chrome from the crop (comp-spec.mjs --crop document-preview); its ink box, border, fill, radius, and label size are the comp's --></div>
+</main>
+</body>
+</html>
