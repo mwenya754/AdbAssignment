@@ -1,0 +1,204 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-11-21T20:04:58Z",
+  "title": "Design System: Specimen Register",
+  "extensions": {
+    "colorMeta": {
+      "ground": {
+        "role": "neutral",
+        "displayName": "Cool Ground",
+        "canonical": "#ebf7f8",
+        "tonalRamp": ["oklch(15% 0.013 203)", "oklch(25% 0.013 203)", "oklch(35% 0.013 203)", "oklch(45% 0.013 203)", "oklch(55% 0.013 203)", "oklch(65% 0.013 203)", "oklch(80% 0.013 203)", "oklch(95% 0.013 203)"]
+      },
+      "surface": {
+        "role": "neutral",
+        "displayName": "Quiet Surface",
+        "canonical": "#f6f9fa",
+        "tonalRamp": ["oklch(15% 0.003 220)", "oklch(25% 0.003 220)", "oklch(35% 0.003 220)", "oklch(45% 0.003 220)", "oklch(55% 0.003 220)", "oklch(65% 0.003 220)", "oklch(80% 0.003 220)", "oklch(95% 0.003 220)"]
+      },
+      "pane": {
+        "role": "neutral",
+        "displayName": "Pane Mist",
+        "canonical": "#eff5f6",
+        "tonalRamp": ["oklch(15% 0.007 209)", "oklch(25% 0.007 209)", "oklch(35% 0.007 209)", "oklch(45% 0.007 209)", "oklch(55% 0.007 209)", "oklch(65% 0.007 209)", "oklch(80% 0.007 209)", "oklch(95% 0.007 209)"]
+      },
+      "field": {
+        "role": "neutral",
+        "displayName": "Field White",
+        "canonical": "#f8fafb",
+        "tonalRamp": ["oklch(15% 0.003 229)", "oklch(25% 0.003 229)", "oklch(35% 0.003 229)", "oklch(45% 0.003 229)", "oklch(55% 0.003 229)", "oklch(65% 0.003 229)", "oklch(80% 0.003 229)", "oklch(95% 0.003 229)"]
+      },
+      "blue-black": {
+        "role": "neutral",
+        "displayName": "Blue-Black Ink",
+        "canonical": "#182838",
+        "tonalRamp": ["oklch(15% 0.037 249)", "oklch(25% 0.037 249)", "oklch(35% 0.037 249)", "oklch(45% 0.037 249)", "oklch(55% 0.037 249)", "oklch(65% 0.037 249)", "oklch(80% 0.037 249)", "oklch(95% 0.024 249)"]
+      },
+      "muted-ink": {
+        "role": "neutral",
+        "displayName": "Muted Ink",
+        "canonical": "#63717a",
+        "tonalRamp": ["oklch(15% 0.022 236)", "oklch(25% 0.022 236)", "oklch(35% 0.022 236)", "oklch(45% 0.022 236)", "oklch(55% 0.022 236)", "oklch(65% 0.022 236)", "oklch(80% 0.022 236)", "oklch(95% 0.022 236)"]
+      },
+      "rule": {
+        "role": "neutral",
+        "displayName": "Fine Rule",
+        "canonical": "#aab5bc",
+        "tonalRamp": ["oklch(15% 0.016 235)", "oklch(25% 0.016 235)", "oklch(35% 0.016 235)", "oklch(45% 0.016 235)", "oklch(55% 0.016 235)", "oklch(65% 0.016 235)", "oklch(80% 0.016 235)", "oklch(95% 0.016 235)"]
+      },
+      "strong-rule": {
+        "role": "neutral",
+        "displayName": "Strong Rule",
+        "canonical": "#7f8890",
+        "tonalRamp": ["oklch(15% 0.016 245)", "oklch(25% 0.016 245)", "oklch(35% 0.016 245)", "oklch(45% 0.016 245)", "oklch(55% 0.016 245)", "oklch(65% 0.016 245)", "oklch(80% 0.016 245)", "oklch(95% 0.016 245)"]
+      },
+      "cobalt": {
+        "role": "primary",
+        "displayName": "Register Cobalt",
+        "canonical": "#1857f6",
+        "tonalRamp": ["oklch(15% 0.079 264)", "oklch(25% 0.133 264)", "oklch(35% 0.186 264)", "oklch(45% 0.237 264)", "oklch(55% 0.245 264)", "oklch(65% 0.186 264)", "oklch(80% 0.098 264)", "oklch(95% 0.023 264)"]
+      },
+      "chartreuse": {
+        "role": "secondary",
+        "displayName": "Chartreuse Signal",
+        "canonical": "#d7ef62",
+        "tonalRamp": ["oklch(15% 0.034 118)", "oklch(25% 0.057 118)", "oklch(35% 0.080 118)", "oklch(45% 0.102 118)", "oklch(55% 0.127 118)", "oklch(65% 0.148 118)", "oklch(80% 0.167 118)", "oklch(95% 0.167 118)"]
+      },
+      "tag-blue": {
+        "role": "neutral",
+        "displayName": "Tag Blue",
+        "canonical": "#d7e2fa",
+        "tonalRamp": ["oklch(15% 0.035 266)", "oklch(25% 0.035 266)", "oklch(35% 0.035 266)", "oklch(45% 0.035 266)", "oklch(55% 0.035 266)", "oklch(65% 0.035 266)", "oklch(80% 0.035 266)", "oklch(95% 0.023 266)"]
+      },
+      "error": {
+        "role": "secondary",
+        "displayName": "Validation Red",
+        "canonical": "#a43535",
+        "tonalRamp": ["oklch(15% 0.061 24)", "oklch(25% 0.099 24)", "oklch(35% 0.138 24)", "oklch(45% 0.147 24)", "oklch(55% 0.147 24)", "oklch(65% 0.147 24)", "oklch(80% 0.111 24)", "oklch(95% 0.024 24)"]
+      },
+      "out-of-stock": {
+        "role": "secondary",
+        "displayName": "Out-of-Stock Blush",
+        "canonical": "#f0c0bd",
+        "tonalRamp": ["oklch(15% 0.055 22)", "oklch(25% 0.055 22)", "oklch(35% 0.055 22)", "oklch(45% 0.055 22)", "oklch(55% 0.055 22)", "oklch(65% 0.055 22)", "oklch(80% 0.055 22)", "oklch(95% 0.024 22)"]
+      }
+    },
+    "typographyMeta": {
+      "display": {"displayName": "Page title", "purpose": "Identifies the catalogue in the masthead."},
+      "headline": {"displayName": "Editor heading", "purpose": "Names the active form pane."},
+      "title": {"displayName": "Document and index headings", "purpose": "Labels the document pane and catalogue columns."},
+      "body": {"displayName": "Interface body", "purpose": "Default copy and catalogue values."},
+      "label": {"displayName": "Field label", "purpose": "Names editor fields and primary controls."},
+      "micro-label": {"displayName": "Mobile metadata", "purpose": "Labels the compact product-card values."},
+      "input": {"displayName": "Editor value", "purpose": "Shows single-line editable product fields."},
+      "status": {"displayName": "Stock badge", "purpose": "Keeps inventory state legible inside the status marker."},
+      "code": {"displayName": "Structured text", "purpose": "Shows editable Specs and the MongoDB document preview."}
+    },
+    "shadows": [],
+    "motion": [
+      {"name": "control-state", "value": "120ms ease", "purpose": "Button color and border changes and catalogue row state changes."},
+      {"name": "button-press", "value": "100ms ease", "purpose": "Small press-scale response on buttons."},
+      {"name": "reduced-motion", "value": "0.01ms", "purpose": "Shortens transitions and animations when reduced motion is requested."}
+    ],
+    "breakpoints": [
+      {"name": "title-compact", "value": "1080px", "purpose": "Tightens page gutters, editor columns, and title sizing."},
+      {"name": "mobile-cards", "value": "760px", "purpose": "Stacks filters, changes catalogue rows to product cards, and stacks record panes."},
+      {"name": "masthead-narrow", "value": "360px", "purpose": "Stacks the masthead title and sample marker."}
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary Button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "Cobalt action for adding or saving a product.",
+      "html": "<button class=\"ds-button ds-button-primary\">Save product</button>",
+      "css": ".ds-button { min-height: 48px; padding: 0 22px; border: 1px solid var(--rule-strong); border-radius: 5px; background: var(--surface); color: var(--ink); font: 700 18px/1 Assistant, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; white-space: nowrap; cursor: pointer; transition: background-color 120ms ease, border-color 120ms ease, color 120ms ease, transform 100ms ease; } .ds-button:hover { background: #e3ebee; } .ds-button:active { transform: scale(.985); } .ds-button:focus-visible { outline: 3px solid var(--accent); outline-offset: 2px; } .ds-button-primary { border-color: var(--accent); background: var(--accent); color: #fff; } .ds-button-primary:hover { border-color: #1046dc; background: #1046dc; }"
+    },
+    {
+      "name": "Secondary Button",
+      "kind": "button",
+      "refersTo": "button-secondary",
+      "description": "Quiet outlined control for canceling or other secondary form actions.",
+      "html": "<button class=\"ds-button ds-button-secondary\">Cancel</button>",
+      "css": ".ds-button-secondary { min-height: 48px; padding: 0 22px; border: 1px solid var(--rule-strong); border-radius: 5px; background: var(--surface); color: var(--ink); font: 700 18px/1 Assistant, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; cursor: pointer; transition: background-color 120ms ease, border-color 120ms ease, color 120ms ease, transform 100ms ease; } .ds-button-secondary:hover { background: #e3ebee; } .ds-button-secondary:active { transform: scale(.985); } .ds-button-secondary:focus-visible { outline: 3px solid var(--accent); outline-offset: 2px; }"
+    },
+    {
+      "name": "Search Filter",
+      "kind": "input",
+      "refersTo": "search-filter",
+      "description": "Joined label and search field used to scan the product index.",
+      "html": "<label class=\"ds-search\"><span class=\"ds-search-label\">Search</span><span class=\"ds-search-control\"><svg aria-hidden=\"true\" viewBox=\"0 0 24 24\" fill=\"none\"><circle cx=\"10.8\" cy=\"10.8\" r=\"6.4\" stroke=\"currentColor\" stroke-width=\"1.8\"></circle><path d=\"m15.5 15.5 4.1 4.1\" stroke=\"currentColor\" stroke-width=\"1.8\" stroke-linecap=\"round\"></path></svg><input placeholder=\"Search products…\" aria-label=\"Search products\"></span></label>",
+      "css": ".ds-search { min-width: 0; height: 48px; display: grid; grid-template-columns: 130px minmax(0, 1fr); color: var(--ink); font-family: Assistant, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; } .ds-search-label { display: flex; align-items: center; padding: 0 27px; border-radius: 4px 0 0 4px; background: var(--ink); color: #f5f8f9; font-size: 18px; font-weight: 700; } .ds-search-control { min-width: 0; display: flex; align-items: center; gap: 15px; padding: 8px 16px; border: 1px solid var(--rule-strong); border-left: 0; border-radius: 0 4px 4px 0; background: var(--surface); } .ds-search-control:focus-within { outline: 3px solid color-mix(in srgb, var(--accent) 35%, transparent); outline-offset: 1px; border-color: var(--accent); } .ds-search-control svg { width: 25px; height: 25px; flex: 0 0 auto; color: var(--ink); } .ds-search-control input { width: 100%; min-width: 0; height: 100%; padding: 0; border: 0; outline: 0; background: transparent; color: var(--ink); font: 500 18px Assistant, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; } .ds-search-control input::placeholder { color: #76838c; opacity: 1; } @media (max-width: 760px) { .ds-search { height: 44px; grid-template-columns: 96px minmax(0, 1fr); } .ds-search-label { padding: 0 11px; font-size: 15px; } .ds-search-control { gap: 10px; padding: 8px 11px; } .ds-search-control svg { width: 21px; height: 21px; } .ds-search-control input { font-size: 15px; } }"
+    },
+    {
+      "name": "Editor Field",
+      "kind": "input",
+      "refersTo": "editor-field",
+      "description": "Aligned label block and editable product value.",
+      "html": "<label class=\"ds-field\"><span>Name</span><input value=\"Samsung Galaxy A15\"></label>",
+      "css": ".ds-field { min-width: 0; display: grid; grid-template-columns: 140px minmax(0, 1fr); align-items: center; column-gap: 20px; margin-bottom: 10px; font-family: Assistant, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; } .ds-field > span { min-height: 40px; display: flex; align-items: center; padding: 0 16px; border-radius: 3px; background: var(--ink); color: #f3f6f7; font-size: 18px; font-weight: 700; } .ds-field input { width: 100%; min-width: 0; height: 40px; padding: 0 14px; border: 1px solid var(--rule-strong); border-radius: 6px; background: #f8fafb; color: var(--ink); font: 500 20px/1 Assistant, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; } .ds-field input:focus { outline: 3px solid color-mix(in srgb, var(--accent) 32%, transparent); outline-offset: 1px; border-color: var(--accent); } @media (max-width: 1080px) { .ds-field { grid-template-columns: 112px minmax(0, 1fr); column-gap: 12px; } .ds-field > span { padding: 0 12px; font-size: 16px; } } @media (max-width: 760px) { .ds-field { grid-template-columns: 88px minmax(0, 1fr); column-gap: 9px; } .ds-field > span { padding: 0 9px; font-size: 14px; } .ds-field input { font-size: 16px; } }"
+    },
+    {
+      "name": "Tag Chip",
+      "kind": "chip",
+      "refersTo": "tag-chip",
+      "description": "Removable product tag inside the editor field.",
+      "html": "<span class=\"ds-tag\">android<button type=\"button\" aria-label=\"Remove android tag\">×</button></span>",
+      "css": ".ds-tag { min-height: 30px; display: inline-flex; align-items: center; gap: 8px; padding: 2px 8px 2px 10px; border-radius: 4px; background: var(--tag); color: var(--ink); font: 500 16px/1 Assistant, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; } .ds-tag button { width: 20px; height: 24px; display: inline-grid; place-items: center; padding: 0; border: 0; border-radius: 3px; background: transparent; color: #354559; font: 18px Assistant, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; cursor: pointer; } .ds-tag button:hover { background: #c3d3f5; } .ds-tag button:focus-visible { outline: 2px solid var(--accent); outline-offset: 1px; }"
+    },
+    {
+      "name": "Stock Badge",
+      "kind": "chip",
+      "refersTo": "stock-badge",
+      "description": "Visible text and fill communicate inventory state.",
+      "html": "<span class=\"ds-stock-badge ds-stock-badge-low\">Low stock</span>",
+      "css": ".ds-stock-badge { min-width: 118px; min-height: 33px; display: inline-flex; align-items: center; justify-content: center; padding: 3px 13px; border-radius: 6px; background: var(--status); color: #18242a; font: 700 16px/1 Assistant, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; } .ds-stock-badge-low { background: var(--status); } .ds-stock-badge-out { background: #f0c0bd; } @media (max-width: 760px) { .ds-stock-badge { min-width: 92px; min-height: 28px; padding: 3px 8px; font-size: 13px; } }"
+    },
+    {
+      "name": "Mobile Catalogue Record",
+      "kind": "custom",
+      "refersTo": "catalogue-record-selected",
+      "description": "Narrow-screen form of a catalogue row, retaining labeled price, stock, and status.",
+      "html": "<div class=\"ds-product-card ds-product-card-selected\" role=\"button\" tabindex=\"0\" aria-pressed=\"true\"><div class=\"ds-product-cell ds-product-name\">Samsung Galaxy A15</div><div class=\"ds-product-cell ds-product-category\" data-label=\"Category\">Phones</div><div class=\"ds-product-cell ds-product-price\" data-label=\"Price\">ZMW 2,800</div><div class=\"ds-product-cell ds-product-stock\" data-label=\"Stock\">14</div><div class=\"ds-product-cell ds-product-status\" data-label=\"Status\"><span class=\"ds-stock-badge\">In stock</span></div></div>",
+      "css": ".ds-product-card { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); grid-template-areas: 'product category' 'price stock' 'status status'; gap: 0 12px; padding: 7px 12px; border: 1px solid var(--rule-strong); border-radius: 5px; background: var(--ground); color: var(--ink); font: 700 14px/1.2 Assistant, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; cursor: pointer; transition: background-color 120ms ease, color 120ms ease; } .ds-product-card:hover { background: #dfeaed; } .ds-product-card:active { background: #cedfe4; } .ds-product-card:focus-visible { outline: 3px solid var(--accent); outline-offset: -3px; } .ds-product-card-selected, .ds-product-card-selected:hover { border-color: var(--accent); background: var(--accent); color: #fff; } .ds-product-card-selected:active { background: #1046dc; } .ds-product-cell { min-width: 0; padding: 4px 0; } .ds-product-name { grid-area: product; font-size: 16px; } .ds-product-category { grid-area: category; text-align: right; } .ds-product-price { grid-area: price; } .ds-product-stock { grid-area: stock; text-align: right; } .ds-product-status { grid-area: status; display: flex; align-items: center; gap: 8px; } .ds-product-cell:not(.ds-product-name)::before { content: attr(data-label); display: inline-block; margin-right: 6px; color: var(--muted); font-size: 11px; font-weight: 700; letter-spacing: .035em; text-transform: uppercase; } .ds-product-card-selected .ds-product-cell::before { color: #d7e4ff; } .ds-product-category::before { display: block; margin: 0 0 3px; text-align: right; } .ds-product-status::before { margin-right: 0; } .ds-product-card .ds-stock-badge { min-width: 92px; min-height: 28px; padding: 3px 8px; font-size: 13px; }"
+    },
+    {
+      "name": "MongoDB Document Pane",
+      "kind": "custom",
+      "refersTo": "document-preview",
+      "description": "Outlined preview pane for the nested document matching the editable record.",
+      "html": "<section class=\"ds-document-pane\"><header class=\"ds-document-heading\">MongoDB document</header><pre class=\"ds-document-code\">{\n  \"name\": \"Samsung Galaxy A15\",\n  \"category\": \"Phones\",\n  \"price\": 2800,\n  \"stock\": 14,\n  \"tags\": [\n    \"android\",\n    \"budget\"\n  ],\n  \"specs\": {\n    \"storage\": \"128GB\"\n  }\n}</pre></section>",
+      "css": ".ds-document-pane { min-width: 0; min-height: 552px; overflow: hidden; border: 1px solid var(--rule-strong); border-radius: 5px; background: #eff5f6; font-family: Assistant, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; } .ds-document-heading { min-height: 44px; display: flex; align-items: center; padding: 0 24px; background: var(--ink); color: #f5f7f8; font-size: 26px; line-height: 1; font-weight: 700; letter-spacing: -.018em; } .ds-document-code { height: 39vh; min-height: 360px; max-height: 420px; overflow: auto; margin: 20px 18px; padding: 14px 18px; border: 1px solid #9ea9b1; border-radius: 6px; background: #eff5f6; color: #111820; font: 500 18px/1.45 var(--font-code); font-variant-numeric: tabular-nums; white-space: pre; } .ds-document-code:focus-visible { outline: 3px solid var(--accent); outline-offset: 2px; } @media (max-width: 760px) { .ds-document-pane { min-height: 0; } .ds-document-heading { min-height: 43px; padding: 0 16px; font-size: 22px; } .ds-document-code { height: 360px; min-height: 280px; margin: 14px; padding: 13px; font-size: 13px; } }"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Specimen Register",
+    "overview": "Records read as entries in a working register: aligned labels, blue-black rails, and a cool pale ground keep product, stock, and document structure easy to scan. Cobalt marks the selected record and primary actions; chartreuse carries the sample and stock signals. Assistant handles interface text, while monospaced text is reserved for editable Specs and the MongoDB preview.\n\nOn wide screens, the five-column index spans the page, then the editor and nested document preview sit side by side. At narrow widths, search controls stack, rows become labeled product cards, and the editor and preview follow vertically. Borders, fills, and restrained corner radii carry depth; surfaces stay flat.",
+    "keyCharacteristics": [
+      "Cool blue-gray canvas, blue-black ink, and precise rules.",
+      "Cobalt for selection and primary action; chartreuse for sample and stock signals.",
+      "Assistant interface type paired with monospaced Specs and JSON.",
+      "Catalogue index and paired record editor/document view, with a stacked mobile form."
+    ],
+    "rules": [
+      {"name": "The Cobalt Selection Rule", "body": "Cobalt carries the primary action and selected record. Chartreuse remains a sample or stock marker.", "section": "colors"},
+      {"name": "The Structured Text Rule", "body": "Use monospace for Specs and the JSON document; keep ordinary controls and catalogue values in Assistant.", "section": "typography"},
+      {"name": "The Paired Record Rule", "body": "Keep the catalogue, editable record, and matching JSON document in one continuous workflow; pair the latter two on wide screens and stack them after the mobile card list.", "section": "layout"},
+      {"name": "The Ruled Surface Rule", "body": "Separate resting surfaces with fills and borders; do not add shadow as a default layer.", "section": "elevation"}
+    ],
+    "dos": [
+      "Do use cobalt for the primary action and selected catalogue record, and chartreuse for sample/status marks.",
+      "Do keep prices and stock aligned with tabular figures and preserve the five-column index on wide layouts.",
+      "Do keep editable Specs and the MongoDB preview monospaced, with whitespace preserved.",
+      "Do retain a visible text label for each stock state.",
+      "Do keep the editor and document preview paired on wide screens and stacked after the catalogue on mobile."
+    ],
+    "donts": [
+      "Don't use chartreuse as a general action or selection color.",
+      "Don't add default shadows or decorative gradients; the system uses flat fills and rules.",
+      "Don't reduce stock states to color alone.",
+      "Don't turn the catalogue into a single-record feed; the product index remains part of the editing workflow."
+    ]
+  }
+}

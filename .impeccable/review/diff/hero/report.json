@@ -1,7 +1,7 @@
 {
   "tool": "comp-diff",
   "version": 1,
-  "createdAt": "2026-11-21T19:33:01.956Z",
+  "createdAt": "2026-11-21T19:34:42.709Z",
   "label": "hero",
   "comp": ".impeccable/mocks/catalogue-first.webp",
   "build": ".impeccable/review/hero-repro.png",
@@ -9,16 +9,16 @@
   "compSize": "1487x1058",
   "buildSize": "1487x1058",
   "align": "top",
-  "overall": 0.8978,
+  "overall": 0.9025,
   "verdict": "match",
   "scores": {
-    "overall": 0.8978,
-    "structure": 0.898,
-    "color": 0.9401,
-    "colorIntersection": 0.8762,
-    "paletteMatch": 0.9746,
-    "detail": 0.8205,
-    "detailRaw": 0.8205,
+    "overall": 0.9025,
+    "structure": 0.9015,
+    "color": 0.9393,
+    "colorIntersection": 0.877,
+    "paletteMatch": 0.9729,
+    "detail": 0.8352,
+    "detailRaw": 0.8352,
     "detailAdded": 0,
     "bands": 0.9556
   },
@@ -52,27 +52,27 @@
     "build": [
       {
         "hex": "#ebf8f8",
-        "coverage": 0.742
+        "coverage": 0.7412
       },
       {
         "hex": "#182838",
-        "coverage": 0.1733
+        "coverage": 0.1731
       },
       {
         "hex": "#1858f8",
         "coverage": 0.0585
       },
       {
-        "hex": "#7c8c9b",
-        "coverage": 0.014
+        "hex": "#7e8e9b",
+        "coverage": 0.0149
       },
       {
         "hex": "#d8e868",
-        "coverage": 0.0106
+        "coverage": 0.0105
       },
       {
-        "hex": "#a8b8b8",
-        "coverage": 0.0016
+        "hex": "#b9c9c9",
+        "coverage": 0.0019
       }
     ]
   },
@@ -85,13 +85,13 @@
       "h": 1,
       "kind": "chrome",
       "score": {
-        "overall": 0.8978,
-        "structure": 0.898,
-        "color": 0.9401,
-        "colorIntersection": 0.8762,
-        "paletteMatch": 0.9746,
-        "detail": 0.8205,
-        "detailRaw": 0.8205,
+        "overall": 0.9025,
+        "structure": 0.9015,
+        "color": 0.9393,
+        "colorIntersection": 0.877,
+        "paletteMatch": 0.9729,
+        "detail": 0.8352,
+        "detailRaw": 0.8352,
         "detailAdded": 0,
         "bands": 0.9556
       },
@@ -255,13 +255,13 @@
       "h": 0.051,
       "kind": "control",
       "score": {
-        "overall": 0.8616,
-        "structure": 0.9509,
-        "color": 0.7948,
-        "colorIntersection": 0.5821,
-        "paletteMatch": 0.9093,
-        "detail": 0.7775,
-        "detailRaw": 0.7775,
+        "overall": 0.8718,
+        "structure": 0.965,
+        "color": 0.7949,
+        "colorIntersection": 0.5823,
+        "paletteMatch": 0.9094,
+        "detail": 0.7969,
+        "detailRaw": 0.7969,
         "detailAdded": 0,
         "bands": 1
       },
@@ -289,14 +289,14 @@
       "h": 0.269,
       "kind": "chrome",
       "score": {
-        "overall": 0.8298,
-        "structure": 0.8541,
-        "color": 0.8963,
-        "colorIntersection": 0.7971,
-        "paletteMatch": 0.9497,
-        "detail": 0.6669,
-        "detailRaw": 0.6929,
-        "detailAdded": 0.0521,
+        "overall": 0.8441,
+        "structure": 0.8642,
+        "color": 0.8976,
+        "colorIntersection": 0.8,
+        "paletteMatch": 0.9501,
+        "detail": 0.7087,
+        "detailRaw": 0.7295,
+        "detailAdded": 0.0417,
         "bands": 0.9336
       },
       "verdict": "match",
@@ -323,15 +323,15 @@
       "h": 0.047,
       "kind": "chrome",
       "score": {
-        "overall": 0.5825,
-        "structure": 0.7196,
-        "color": 0.8573,
-        "colorIntersection": 0.7532,
-        "paletteMatch": 0.9134,
-        "detail": 0.3332,
-        "detailRaw": 0.3905,
-        "detailAdded": 0.1146,
-        "bands": 0.22
+        "overall": 0.6402,
+        "structure": 0.7666,
+        "color": 0.8565,
+        "colorIntersection": 0.7548,
+        "paletteMatch": 0.9113,
+        "detail": 0.367,
+        "detailRaw": 0.4399,
+        "detailAdded": 0.1458,
+        "bands": 0.44
       },
       "verdict": "drift",
       "inkBox": {
@@ -357,14 +357,14 @@
       "h": 0.056,
       "kind": "control",
       "score": {
-        "overall": 0.7613,
-        "structure": 0.8075,
-        "color": 0.8381,
+        "overall": 0.7691,
+        "structure": 0.8131,
+        "color": 0.8462,
         "colorIntersection": 0.7525,
-        "paletteMatch": 0.8842,
-        "detail": 0.5232,
-        "detailRaw": 0.5805,
-        "detailAdded": 0.1146,
+        "paletteMatch": 0.8967,
+        "detail": 0.5352,
+        "detailRaw": 0.5873,
+        "detailAdded": 0.1042,
         "bands": 0.2833
       },
       "verdict": "drift",
@@ -391,14 +391,14 @@
       "h": 0.055,
       "kind": "control",
       "score": {
-        "overall": 0.7399,
-        "structure": 0.7599,
-        "color": 0.9121,
+        "overall": 0.7463,
+        "structure": 0.7663,
+        "color": 0.9108,
         "colorIntersection": 0.8531,
-        "paletteMatch": 0.9439,
-        "detail": 0.3936,
-        "detailRaw": 0.5029,
-        "detailAdded": 0.2188,
+        "paletteMatch": 0.9419,
+        "detail": 0.4133,
+        "detailRaw": 0.5174,
+        "detailAdded": 0.2083,
         "bands": 0
       },
       "verdict": "drift",
@@ -425,14 +425,14 @@
       "h": 0.055,
       "kind": "control",
       "score": {
-        "overall": 0.8231,
-        "structure": 0.9082,
-        "color": 0.8731,
+        "overall": 0.827,
+        "structure": 0.9172,
+        "color": 0.8757,
         "colorIntersection": 0.7923,
-        "paletteMatch": 0.9166,
-        "detail": 0.5442,
-        "detailRaw": 0.5702,
-        "detailAdded": 0.0521,
+        "paletteMatch": 0.9205,
+        "detail": 0.5388,
+        "detailRaw": 0.5701,
+        "detailAdded": 0.0625,
         "bands": 0.3
       },
       "verdict": "match",
@@ -459,13 +459,13 @@
       "h": 0.055,
       "kind": "control",
       "score": {
-        "overall": 0.7856,
-        "structure": 0.8702,
-        "color": 0.8807,
+        "overall": 0.788,
+        "structure": 0.8693,
+        "color": 0.8808,
         "colorIntersection": 0.7791,
-        "paletteMatch": 0.9355,
-        "detail": 0.4287,
-        "detailRaw": 0.5537,
+        "paletteMatch": 0.9356,
+        "detail": 0.4427,
+        "detailRaw": 0.5677,
         "detailAdded": 0.25,
         "bands": 0.56
       },
@@ -493,13 +493,13 @@
       "h": 0.522,
       "kind": "chrome",
       "score": {
-        "overall": 0.8211,
-        "structure": 0.7615,
-        "color": 0.9227,
-        "colorIntersection": 0.8581,
-        "paletteMatch": 0.9575,
-        "detail": 0.712,
-        "detailRaw": 0.7173,
+        "overall": 0.8273,
+        "structure": 0.7689,
+        "color": 0.9271,
+        "colorIntersection": 0.8588,
+        "paletteMatch": 0.9638,
+        "detail": 0.7222,
+        "detailRaw": 0.7274,
         "detailAdded": 0.0104,
         "bands": 0.9727
       },
@@ -765,14 +765,14 @@
       "h": 0.052,
       "kind": "control",
       "score": {
-        "overall": 0.6167,
-        "structure": 0.5797,
-        "color": 0.774,
-        "colorIntersection": 0.5623,
-        "paletteMatch": 0.8879,
-        "detail": 0.4248,
-        "detailRaw": 0.4925,
-        "detailAdded": 0.1354,
+        "overall": 0.6536,
+        "structure": 0.6372,
+        "color": 0.7668,
+        "colorIntersection": 0.5529,
+        "paletteMatch": 0.882,
+        "detail": 0.4923,
+        "detailRaw": 0.5548,
+        "detailAdded": 0.125,
         "bands": 0.2833
       },
       "verdict": "drift",
@@ -786,7 +786,7 @@
         "build": {
           "x": 0,
           "y": 0,
-          "w": 485,
+          "w": 494,
           "h": 49
         }
       }

@@ -6,7 +6,7 @@
   "direction": "9f9f74d6",
   "breakpoint": "1487x1058",
   "artifact": null,
-  "phase": "hero",
+  "phase": "review",
   "phases": {
     "comps": {
       "status": "closed",
@@ -52,24 +52,22 @@
       "forced": null
     },
     "hero": {
-      "status": "open",
+      "status": "closed",
       "openedAt": "2026-11-21T19:21:57.114Z",
-      "closedAt": null,
-      "attempts": 2,
+      "closedAt": "2026-11-21T19:34:42.765Z",
+      "attempts": 3,
       "notes": [],
       "gate": {
-        "ok": false,
-        "reasons": [
-          "control form-actions drifts to 62% (structure 58%, color 77%): its chrome differs from the comp's; open .impeccable/review/diff/hero/regions/form-actions.png and match the border, fill, radius, chevron or arrow, and label size"
-        ],
+        "ok": true,
+        "reasons": [],
         "summary": "hero 90% (match)",
-        "score": 0.8978,
+        "score": 0.9025,
         "verdict": "match",
         "report": ".impeccable/review/diff/hero/report.json",
         "sideBySide": "/Users/tehillachiwama/Year 3/Advanced Database/AdbAssignment/.impeccable/review/diff/hero/side-by-side.png",
         "worst": [
-          "table-heading-band drift 58%",
-          "form-actions drift 62%",
+          "table-heading-band drift 64%",
+          "form-actions drift 65%",
           "page-title drift 68%"
         ],
         "worstIds": [
@@ -82,15 +80,15 @@
             "id": "table-heading-band",
             "verdict": "drift",
             "score": {
-              "overall": 0.5825,
-              "structure": 0.7196,
-              "color": 0.8573,
-              "colorIntersection": 0.7532,
-              "paletteMatch": 0.9134,
-              "detail": 0.3332,
-              "detailRaw": 0.3905,
-              "detailAdded": 0.1146,
-              "bands": 0.22
+              "overall": 0.6402,
+              "structure": 0.7666,
+              "color": 0.8565,
+              "colorIntersection": 0.7548,
+              "paletteMatch": 0.9113,
+              "detail": 0.367,
+              "detailRaw": 0.4399,
+              "detailAdded": 0.1458,
+              "bands": 0.44
             },
             "file": ".impeccable/review/diff/hero/regions/table-heading-band.png"
           },
@@ -98,14 +96,14 @@
             "id": "form-actions",
             "verdict": "drift",
             "score": {
-              "overall": 0.6167,
-              "structure": 0.5797,
-              "color": 0.774,
-              "colorIntersection": 0.5623,
-              "paletteMatch": 0.8879,
-              "detail": 0.4248,
-              "detailRaw": 0.4925,
-              "detailAdded": 0.1354,
+              "overall": 0.6536,
+              "structure": 0.6372,
+              "color": 0.7668,
+              "colorIntersection": 0.5529,
+              "paletteMatch": 0.882,
+              "detail": 0.4923,
+              "detailRaw": 0.5548,
+              "detailAdded": 0.125,
               "bands": 0.2833
             },
             "file": ".impeccable/review/diff/hero/regions/form-actions.png"
@@ -128,12 +126,12 @@
           }
         ],
         "advisories": [
-          "(advisory, above the 72% bar; fix in the polish pass before responsive) 5 readings:",
-          "  control second-row: its ink is 58px tall in the build and 25px in the comp (+33px); match the height, not only the position",
-          "  control category-field: its rule sits 1px into the box in the comp and 37px in the build (+36px), so the strip is taller than the comp's; match the height, not only the position",
-          "  control stock-field: its rule sits 2px into the box in the comp and 37px in the build (+35px), so the strip is taller than the comp's; match the height, not only the position",
-          "  control tags-field: its rule sits 1px into the box in the comp and 42px in the build (+41px), so the strip is taller than the comp's; match the height, not only the position",
-          "  control form-actions: its rule sits 1px into the box in the comp and 47px in the build (+46px), so the strip is taller than the comp's; match the height, not only the position"
+          "(advisory, above the 72% bar; fix in the polish pass before responsive) 1 reading:",
+          "  control form-actions: its rule sits 1px into the box in the comp and 47px in the build (+46px), so the strip is taller than the comp's; match the height, not only the position",
+          "(advisory, unchanged for 3+ attempts) control second-row: its ink is 58px tall in the build and 25px in the comp (+33px); match the height, not only the position",
+          "(advisory, unchanged for 3+ attempts) control category-field: its rule sits 1px into the box in the comp and 37px in the build (+36px), so the strip is taller than the comp's; match the height, not only the position",
+          "(advisory, unchanged for 3+ attempts) control stock-field: its rule sits 2px into the box in the comp and 37px in the build (+35px), so the strip is taller than the comp's; match the height, not only the position",
+          "(advisory, unchanged for 3+ attempts) control tags-field: its rule sits 1px into the box in the comp and 42px in the build (+41px), so the strip is taller than the comp's; match the height, not only the position"
         ],
         "regionVerdicts": {
           "page-ground": "match",
@@ -161,17 +159,17 @@
           "document-pane-title": "drift",
           "document-preview": "match"
         },
-        "at": "2026-11-21T19:33:02.013Z"
+        "at": "2026-11-21T19:34:42.764Z"
       },
       "forced": null,
       "readingsSeen": {
-        "control second-row: its ink is 58px tall in the build and 25px in the comp (+33px); match the height, not only the position": 3,
-        "control category-field: its rule sits 1px into the box in the comp and 37px in the build (+36px), so the strip is taller than the comp's; match the height, not only the position": 3,
-        "control stock-field: its rule sits 2px into the box in the comp and 37px in the build (+35px), so the strip is taller than the comp's; match the height, not only the position": 3,
-        "control tags-field: its rule sits 1px into the box in the comp and 42px in the build (+41px), so the strip is taller than the comp's; match the height, not only the position": 3,
+        "control second-row: its ink is 58px tall in the build and 25px in the comp (+33px); match the height, not only the position": 4,
+        "control category-field: its rule sits 1px into the box in the comp and 37px in the build (+36px), so the strip is taller than the comp's; match the height, not only the position": 4,
+        "control stock-field: its rule sits 2px into the box in the comp and 37px in the build (+35px), so the strip is taller than the comp's; match the height, not only the position": 4,
+        "control tags-field: its rule sits 1px into the box in the comp and 42px in the build (+41px), so the strip is taller than the comp's; match the height, not only the position": 4,
         "control form-actions: its rule sits 1px into the box in the comp and 44px in the build (+43px), so the strip is taller than the comp's; match the height, not only the position": 1,
         "control form-actions: its rule sits 1px into the box in the comp and 43px in the build (+42px), so the strip is taller than the comp's; match the height, not only the position": 1,
-        "control form-actions: its rule sits 1px into the box in the comp and 47px in the build (+46px), so the strip is taller than the comp's; match the height, not only the position": 1
+        "control form-actions: its rule sits 1px into the box in the comp and 47px in the build (+46px), so the strip is taller than the comp's; match the height, not only the position": 2
       },
       "records": 1,
       "history": [
@@ -246,46 +244,103 @@
             "document-preview": "match"
           },
           "artifactHash": null
+        },
+        {
+          "at": "2026-11-21T19:34:42.764Z",
+          "score": 0.9025,
+          "worstIds": [
+            "table-heading-band",
+            "form-actions",
+            "page-title"
+          ],
+          "regionVerdicts": {
+            "page-ground": "match",
+            "masthead": "drift",
+            "page-title": "drift",
+            "sample-marker": "drift",
+            "add-product": "drift",
+            "search-filter-row": "match",
+            "product-index": "match",
+            "table-heading-band": "drift",
+            "selected-row": "drift",
+            "second-row": "drift",
+            "third-row": "match",
+            "fourth-row": "drift",
+            "edit-pane": "match",
+            "edit-pane-title": "drift",
+            "name-field": "match",
+            "category-field": "match",
+            "price-field": "match",
+            "stock-field": "drift",
+            "tags-field": "drift",
+            "specs-field": "drift",
+            "form-actions": "drift",
+            "document-pane": "match",
+            "document-pane-title": "drift",
+            "document-preview": "match"
+          },
+          "artifactHash": null
         }
       ]
     },
     "sections": {
-      "status": "pending",
-      "openedAt": null,
-      "closedAt": null,
-      "attempts": 0,
+      "status": "closed",
+      "openedAt": "2026-11-21T19:34:42.765Z",
+      "closedAt": "2026-11-21T19:34:50.156Z",
+      "attempts": 1,
       "notes": [],
-      "gate": null,
+      "gate": {
+        "ok": true,
+        "reasons": [],
+        "summary": "no mechanical gate",
+        "at": "2026-11-21T19:34:50.156Z"
+      },
       "forced": null
     },
     "motion": {
-      "status": "pending",
-      "openedAt": null,
-      "closedAt": null,
-      "attempts": 0,
+      "status": "closed",
+      "openedAt": "2026-11-21T19:34:50.156Z",
+      "closedAt": "2026-11-21T19:35:06.245Z",
+      "attempts": 1,
       "notes": [],
-      "gate": null,
+      "gate": {
+        "ok": true,
+        "reasons": [],
+        "summary": "no mechanical gate",
+        "at": "2026-11-21T19:35:06.245Z"
+      },
       "forced": null
     },
     "responsive": {
-      "status": "pending",
-      "openedAt": null,
-      "closedAt": null,
-      "attempts": 0,
+      "status": "closed",
+      "openedAt": "2026-11-21T19:35:06.245Z",
+      "closedAt": "2026-11-21T19:43:25.869Z",
+      "attempts": 2,
       "notes": [],
-      "gate": null,
+      "gate": {
+        "ok": true,
+        "reasons": [],
+        "summary": "desktop 81% (match)",
+        "score": 0.8057,
+        "sideBySide": "/Users/tehillachiwama/Year 3/Advanced Database/AdbAssignment/.impeccable/review/diff/desktop/side-by-side.png",
+        "at": "2026-11-21T19:43:25.869Z"
+      },
       "forced": null
     },
     "review": {
-      "status": "pending",
-      "openedAt": null,
-      "closedAt": null,
+      "status": "closed",
+      "openedAt": "2026-11-21T19:43:25.869Z",
+      "closedAt": "2026-11-21T20:21:30.134Z",
       "attempts": 0,
       "notes": [],
       "gate": null,
       "forced": null
     }
   },
-  "finish": null,
+  "finish": {
+    "disposition": "ship",
+    "at": "2026-11-21T20:21:30.134Z",
+    "phaseAtFinish": "review"
+  },
   "plates": {}
 }

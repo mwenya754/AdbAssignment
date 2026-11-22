@@ -39,10 +39,19 @@ function formatPrice(price) {
   return `ZMW ${Number(price).toLocaleString('en-US', { maximumFractionDigits: 2 })}`;
 }
 
-function makeCell(text, className = '') {
+function groupByFirstCategory(items) {
+  if (items.length < 2) return items;
+  const firstCategory = items[0].category;
+  const categoryOrder = [firstCategory, ...new Set(items.map(item => item.category).filter(category => category !== firstCategory).sort((a, b) => a.localeCompare(b)))];
+  const rank = new Map(categoryOrder.map((category, index) => [category, index]));
+  return [...items].sort((a, b) => rank.get(a.category) - rank.get(b.category));
+}
+
+function makeCell(text, className = '', label = '') {
   const cell = document.createElement('td');
   cell.textContent = text;
   if (className) cell.className = className;
+  if (label) cell.dataset.label = label;
   return cell;
 }
 
@@ -61,13 +70,14 @@ function renderRows(items) {
     }
 
     row.append(
-      makeCell(item.name),
-      makeCell(item.category),
-      makeCell(formatPrice(item.price), 'numeric'),
-      makeCell(String(item.stock), 'numeric')
+      makeCell(item.name, '', 'Product'),
+      makeCell(item.category, '', 'Category'),
+      makeCell(formatPrice(item.price), 'numeric', 'Price'),
+      makeCell(String(item.stock), 'numeric', 'Stock')
     );
 
     const statusCell = document.createElement('td');
+    statusCell.dataset.label = 'Status';
     const status = stockLabel(item.stock);
     const badge = document.createElement('span');
     badge.className = `stock-badge${status.state ? ` ${status.state}` : ''}`;
@@ -99,15 +109,16 @@ async function loadProducts() {
   const items = await api(`/products?${query.toString()}`);
   if (sequence !== requestSequence) return;
 
-  renderRows(items);
+  const orderedItems = groupByFirstCategory(items);
+  renderRows(orderedItems);
 
-  if (autoSelectFirstProduct && items.length) {
+  if (autoSelectFirstProduct && orderedItems.length) {
     autoSelectFirstProduct = false;
-    selectProduct(items[0]);
+    selectProduct(orderedItems[0]);
     return;
   }
 
-  const updatedSelection = items.find(item => String(item._id) === String(selectedId));
+  const updatedSelection = orderedItems.find(item => String(item._id) === String(selectedId));
   if (updatedSelection) {
     selectedProduct = updatedSelection;
     renderDocument();
