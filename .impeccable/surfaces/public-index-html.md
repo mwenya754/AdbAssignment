@@ -15,14 +15,12 @@ Content and constraints: Use the real catalogue records and label sample data as
 
 THESIS: A product is both a catalogue entry to manage and a MongoDB document to inspect; refuse the generic dashboard and one-item feed.
 
-OWN-WORLD: Specimen Register, inspired by museum accession registers and specimen-label hierarchy. Cool pale gray, blue-black ink, cobalt actions, chartreuse status marks; workhorse sans for controls and monospaced values/JSON. Flat record surfaces and precise label alignment carry the system. Use no invented accession numbers or museum facts.
+OWN-WORLD: Specimen Register with the exact NoSQL presentation palette: pale gray `#EEF2F1`, deep spruce `#12302B`, slide teal `#0F5E54`, dark ink `#14211F`, mint `#D6F3EC`, and warm gold `#F2B84B`. Use Assistant for controls and monospace for JSON; keep the established flat, ruled surfaces and paired catalogue workflow.
 
 STORY: Scan products and stock, select one, edit its fields, and read the same record as a nested MongoDB document while the index remains visible.
 
-FIRST VIEWPORT: Product catalogue title, sample-data marker, and Add product action above the product index and selected-record workspace. Keep search/category controls and name/category/price/stock/status visible beside the editable product fields and MongoDB document. The exact pane topology is awaiting composition approval.
+FIRST VIEWPORT: Preserve the existing product catalogue title, sample-data marker, Add product action, search/category controls, index, paired editor, and live MongoDB document. Copy only the deck's palette: pale gray page, deep-green header strips and JSON panel, teal controls/selection, mint tags and JSON text, dark ink, and gold sample/status markers. Do not change the established composition or responsive layout.
 
-FORM: Assigned Specimen Register direction, candidate 7 of the grounded list, from seed 9f9f74d6. The direction comp is approved as the visual world; the composition round will settle the final topology before code.
+FORM: Color-only refinement of the existing Specimen Register interface, based on the user's instruction to copy the presentation's color code. Retain current fonts, hierarchy, component geometry, features, and responsive behavior; only remap the semantic palette to the exact colors extracted from the deck.
 
 FINISH: unreviewed and undocumented is unfinished; this build ends with the finish review, the verdict, DESIGN.md, and every shipping raster carrying its provenance
-
-Unresolved decision: which of the three Specimen Register compositions to build.

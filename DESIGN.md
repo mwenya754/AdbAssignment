@@ -2,19 +2,19 @@
 name: Specimen Register
 description: A catalogue interface for editing and inspecting MongoDB product documents.
 colors:
-  ground: "#ebf7f8"
-  surface: "#f6f9fa"
-  pane: "#eff5f6"
-  field: "#f8fafb"
-  blue-black: "#182838"
-  muted-ink: "#63717a"
-  rule: "#aab5bc"
-  strong-rule: "#7f8890"
-  cobalt: "#1857f6"
-  chartreuse: "#d7ef62"
-  tag-blue: "#d7e2fa"
-  error: "#a43535"
-  out-of-stock: "#f0c0bd"
+  ground: "#EEF2F1"
+  surface: "#FFFFFF"
+  pane: "#EEF2F1"
+  field: "#FFFFFF"
+  deep-ink: "#14211F"
+  muted-ink: "#0F5E54"
+  rule: "#B7C9C5"
+  strong-rule: "#0F5E54"
+  deep-teal: "#0F5E54"
+  gold: "#F2B84B"
+  mint: "#D6F3EC"
+  error: "#C9211E"
+  out-of-stock: "#C9211E"
 typography:
   display:
     fontFamily: 'Assistant, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif'
@@ -81,57 +81,57 @@ spacing:
   xl: "24px"
 components:
   button-primary:
-    backgroundColor: "{colors.cobalt}"
-    textColor: "#ffffff"
+    backgroundColor: "{colors.deep-teal}"
+    textColor: "#FFFFFF"
     typography: "{typography.label}"
     rounded: "{rounded.button}"
     padding: "0 22px"
     height: "48px"
   button-primary-hover:
-    backgroundColor: "#1046dc"
+    backgroundColor: "{colors.deep-spruce}"
   button-secondary:
     backgroundColor: "{colors.surface}"
-    textColor: "{colors.blue-black}"
+    textColor: "{colors.deep-ink}"
     typography: "{typography.label}"
     rounded: "{rounded.button}"
     padding: "0 22px"
     height: "48px"
   search-filter:
     backgroundColor: "{colors.surface}"
-    textColor: "{colors.blue-black}"
+    textColor: "{colors.deep-ink}"
     typography: "{typography.body}"
     rounded: "{rounded.filter}"
     padding: "8px 16px"
     height: "48px"
   editor-field:
     backgroundColor: "{colors.field}"
-    textColor: "{colors.blue-black}"
+    textColor: "{colors.deep-ink}"
     typography: "{typography.input}"
     rounded: "{rounded.field}"
     padding: "0 14px"
     height: "40px"
   tag-chip:
-    backgroundColor: "{colors.tag-blue}"
-    textColor: "{colors.blue-black}"
+    backgroundColor: "{colors.mint}"
+    textColor: "{colors.deep-ink}"
     typography: "{typography.body}"
     rounded: "{rounded.chip}"
     padding: "2px 8px 2px 10px"
     height: "30px"
   stock-badge:
-    backgroundColor: "{colors.chartreuse}"
-    textColor: "#18242a"
+    backgroundColor: "{colors.gold}"
+    textColor: "{colors.deep-ink}"
     typography: "{typography.status}"
     rounded: "{rounded.badge}"
     padding: "3px 13px"
     size: "118px 33px"
   catalogue-record-selected:
-    backgroundColor: "{colors.cobalt}"
+    backgroundColor: "{colors.deep-teal}"
     textColor: "#ffffff"
     rounded: "{rounded.record}"
     padding: "7px 12px"
   document-preview:
-    backgroundColor: "{colors.pane}"
-    textColor: "#111820"
+    backgroundColor: "{colors.deep-spruce}"
+    textColor: "{colors.mint}"
     typography: "{typography.code}"
     rounded: "{rounded.code-box}"
     padding: "14px 18px"
@@ -143,38 +143,39 @@ components:
 
 **Creative North Star: "The Specimen Register"**
 
-Records read as entries in a working register: aligned labels, blue-black rails, and a cool pale ground keep product, stock, and document structure easy to scan. Cobalt marks the selected record and primary actions; chartreuse carries the sample and stock signals. Assistant handles interface text, while monospaced text is reserved for editable Specs and the MongoDB preview.
+Records read as entries in a working register: aligned labels, deep-spruce rails, and a pale gray ground keep product, stock, and document structure easy to scan. The presentation's deep teal marks selected records and primary actions; warm gold carries sample and stock signals. Assistant handles interface text, while monospaced text is reserved for editable Specs and the MongoDB preview.
 
 On wide screens, the five-column index spans the page, then the editor and nested document preview sit side by side. At narrow widths, search controls stack, rows become labeled product cards, and the editor and preview follow vertically. Borders, fills, and restrained corner radii carry depth; surfaces stay flat.
 
 **Key Characteristics:**
-- Cool blue-gray canvas, blue-black ink, and precise rules.
-- Cobalt for selection and primary action; chartreuse for sample and stock signals.
+- Pale gray canvas, deep spruce ink, mint accents, and precise rules.
+- Deep teal for selection and primary action; warm gold for sample and stock signals.
 - Assistant interface type paired with monospaced Specs and JSON.
 - Catalogue index and paired record editor/document view, with a stacked mobile form.
 
 ## Colors
 
-The palette pairs cool blue-gray surfaces and blue-black ink with a clear cobalt action color, a chartreuse stock signal, and restrained state colors.
+The presentation palette uses pale gray (`#EEF2F1`), dark ink (`#14211F`), deep spruce (`#12302B`), and slide teal (`#0F5E54`), supported by mint (`#D6F3EC`), warm gold (`#F2B84B`), and restrained error red (`#C9211E`).
 
 ### Primary
-- **Register Cobalt** (`{colors.cobalt}`): The primary button fill and selected product row/card make the current action and record immediately legible.
+- **Presentation Teal** (`{colors.deep-teal}`): The primary button fill and selected product row/card make the current action and record immediately legible.
 
 ### Secondary
-- **Chartreuse Signal** (`{colors.chartreuse}`): Marks the sample-data label and stock status badges. Keep this functional color out of primary actions and selection.
+- **Warm Gold Signal** (`{colors.gold}`): Marks the sample-data label and stock status badges. Keep this functional color out of primary actions and selection.
 
 ### Neutral
-- **Cool Ground** (`{colors.ground}`): The page canvas and unselected catalogue rows.
+- **Pale Ground** (`{colors.ground}`): The page canvas and unselected catalogue rows.
 - **Quiet Surface** (`{colors.surface}`): Secondary controls and flat input surfaces.
-- **Blue-Black Ink** (`{colors.blue-black}`): Main text, masthead, table headings, pane headings, and field labels.
+- **Deep Ink** (`{colors.deep-ink}`): Main text and catalogue values.
+- **Deep Spruce** (`#12302B`): Masthead, table headings, pane headings, and field labels.
 - **Pane Mist** (`{colors.pane}`): The paired editor and document pane background.
 - **Field White** (`{colors.field}`): Editable controls.
-- **Muted Ink** (`{colors.muted-ink}`): Supporting metadata and quiet empty-state text.
+- **Teal Metadata** (`{colors.muted-ink}`): Supporting metadata and quiet empty-state text.
 - **Fine Rule** (`{colors.rule}`) and **Strong Rule** (`{colors.strong-rule}`): Row dividers and component outlines.
-- **Tag Blue** (`{colors.tag-blue}`): Removable tag chips.
-- **Validation Red** (`{colors.error}`) and **Out-of-Stock Blush** (`{colors.out-of-stock}`): Form errors and the out-of-stock badge state.
+- **Mint** (`{colors.mint}`): Removable tag chips and document-preview text.
+- **Presentation Red** (`{colors.error}`): Form errors and the out-of-stock badge state.
 
-**The Cobalt Selection Rule.** Cobalt carries the primary action and selected record. Chartreuse remains a sample or stock marker.
+**The Presentation Palette Rule.** Deep teal carries primary actions, focus, and selected records; warm gold remains a sample or stock marker.
 
 ## Typography
 
@@ -208,7 +209,7 @@ The desktop interface uses generous, aligned control rows, while the mobile card
 
 ## Elevation & Depth
 
-This is a flat, ruled interface with no box shadows. Depth comes from tonal surface changes, thin borders, dark header strips, and the cobalt selected row. Focus uses a visible outline, not an elevation effect.
+This is a flat, ruled interface with no box shadows. Depth comes from tonal surface changes, thin borders, dark header strips, and the deep-teal selected row. Focus uses a visible outline, not an elevation effect.
 
 **The Ruled Surface Rule.** Separate resting surfaces with fills and borders; do not add shadow as a default layer.
 
@@ -219,16 +220,16 @@ Corners stay gently rounded and consistent, from small label blocks to input fie
 ## Components
 
 ### Buttons
-- **Character:** Confident, compact actions with a clear cobalt primary and a quiet outlined secondary.
+- **Character:** Confident, compact actions with a clear teal primary and a quiet outlined secondary.
 - **Shape:** Gently rounded (5px); standard buttons are 48px high with 22px horizontal padding.
-- **Primary:** Cobalt fill, white text, and a darker cobalt hover state. The masthead action is wider; form actions have their own minimum widths.
-- **Secondary:** Pale surface, blue-black text, and a strong neutral outline.
-- **Hover / Focus:** Hover shifts the fill; press scales slightly. Keyboard focus receives a 3px cobalt outline.
+- **Primary:** Deep-teal fill, white text, and a darker spruce hover state. The masthead action is wider; form actions have their own minimum widths.
+- **Secondary:** Pale surface, dark-ink text, and a strong teal outline.
+- **Hover / Focus:** Hover shifts the fill; press scales slightly. Keyboard focus receives a 3px teal outline.
 - **Mobile:** Form actions reduce to 44px high; the masthead action stays compact beside the title.
 
 ### Chips
-- **Style:** Removable tags use a pale blue fill, blue-black text, and small rounded corners (4px).
-- **State:** The × control is transparent at rest and gains a light-blue hover fill. Stock badges use chartreuse for in-stock and low-stock labels, with a blush fill for out-of-stock; every state also carries visible text.
+- **Style:** Removable tags use a pale mint fill, deep-ink text, and small rounded corners (4px).
+- **State:** The × control is transparent at rest and gains a mint hover fill. Stock badges use warm gold for in-stock and low-stock labels, with presentation red for out-of-stock; every state also carries visible text.
 
 ### Cards / Containers
 - **Corner Style:** Product cards and record panes use gently rounded corners (5px); the JSON well uses 6px.
@@ -238,29 +239,29 @@ Corners stay gently rounded and consistent, from small label blocks to input fie
 - **Internal Padding:** Pane content uses 18–20px; mobile cards use compact 7px by 12px padding.
 
 ### Inputs / Fields
-- **Style:** Fields are pale, outlined controls (6px radius). Field labels are blue-black blocks aligned in a separate left column.
-- **Focus:** A 3px cobalt-tinted outline and accent border indicate focus; filter focus applies to the joined control.
+- **Style:** Fields are pale, outlined controls (6px radius). Field labels are deep-spruce blocks aligned in a separate left column.
+- **Focus:** A 3px teal-tinted outline and accent border indicate focus; filter focus applies to the joined control.
 - **Structured Fields:** Specs is a vertically resizable monospace textarea; tags wrap as removable chips inside one field.
 
 ### Signature Component: Catalogue Index and Record Pair
 
-The index is a five-column table on wide screens, with a sticky dark header, tabular numeric values, and cobalt fill for the selected product. At 760px and below, the same record fields become individual cards with small uppercase captions; the selected card keeps its cobalt fill. Preserve visible status text alongside its color.
+The index is a five-column table on wide screens, with a sticky spruce header, tabular numeric values, and deep-teal fill for the selected product. At 760px and below, the same record fields become individual cards with small uppercase captions; the selected card keeps its deep-teal fill. Preserve visible status text alongside its color.
 
 ### Signature Component: MongoDB Document Preview
 
-The preview sits beside the editor under its own dark title strip on wide screens, then follows the editor on mobile. It uses a pale inset code well, preserved whitespace, tabular numerals, and the monospace stack so nested fields remain easy to scan. The live document follows edits in the paired form.
+The preview sits beside the editor under its own dark title strip on wide screens, then follows the editor on mobile. It uses a deep-spruce code surface with mint text, preserved whitespace, tabular numerals, and the monospace stack so nested fields remain easy to scan. The live document follows edits in the paired form.
 
 ## Do's and Don'ts
 
 ### Do:
-- **Do** use cobalt for the primary action and selected catalogue record, and chartreuse for sample/status marks.
+- **Do** use presentation teal for the primary action and selected catalogue record, and warm gold for sample/status marks.
 - **Do** keep prices and stock aligned with tabular figures and preserve the five-column index on wide layouts.
 - **Do** keep editable Specs and the MongoDB preview monospaced, with whitespace preserved.
 - **Do** retain a visible text label for each stock state.
 - **Do** keep the editor and document preview paired on wide screens and stacked after the catalogue on mobile.
 
 ### Don't:
-- **Don't** use chartreuse as a general action or selection color.
+- **Don't** use warm gold as a general action or selection color.
 - **Don't** add default shadows or decorative gradients; the system uses flat fills and rules.
 - **Don't** reduce stock states to color alone.
 - **Don't** turn the catalogue into a single-record feed; the product index remains part of the editing workflow.
